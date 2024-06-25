@@ -1,0 +1,5 @@
+
+<!---
+<timeline-items before="" after=""></timeline-items>
+<object-inspector label="post" :obj="post"></object-inspector>
+-->

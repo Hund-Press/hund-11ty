@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title @text="site.name"></title>
+
+        <style @raw="getBundle('css')" webc:keep></style>
+
+        <meta name="author" :content="masthead.editor.name" />
+        <meta name="description" :content="site.description" />
+        <meta name="view-transition" content="same-origin" />
+
+        <link rel="stylesheet" href="../styles/util/font-faces.css" />
+        <link rel="stylesheet" href="../styles/util/type-scale.css" />
+        <link rel="stylesheet" href="../styles/util/space-scale.css" />
+
+        <!-- <script webc:keep>
+            // TODO: if serviceWorker in navigator
+            navigator.serviceWorker.register("sw.js", {
+                scope: "./",
+            });
+        </script> -->
+    </head>
+
+    <body @raw="content"></body>
+</html>

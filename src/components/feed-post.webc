@@ -1,0 +1,6 @@
+<article>
+    <div @raw="post" webc:nokeep></div>
+    <datetime
+        ><a @raw="postDate(meta.date)" :href="`/posts/${meta.slug }/`"> </a
+    ></datetime>
+</article>

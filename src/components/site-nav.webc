@@ -1,0 +1,11 @@
+<nav id="site-nav">
+    <template webc:nokeep webc:for="item of items">
+        <a :href="item.url"
+            ><span :class="item.label" @text="item.label"></span
+        ></a>
+    </template>
+</nav>
+
+<!--- <div @raw="page.url"></div> -->
+
+<!--- <object-inspector label="page" :obj="page"></object-inspector> -->

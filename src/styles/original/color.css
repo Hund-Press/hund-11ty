@@ -1,0 +1,37 @@
+:root {
+    --body-background-color: white;
+    --body-text-color: black;
+
+    --header-background-color: inherit;
+    --header-text-color: inherit;
+
+    --link-text-color: inherit;
+    --link-text-decoration: underline;
+}
+body {
+    background-color: var(--body-background-color);
+    color: var(--body-text-color);
+}
+
+body > header {
+    > #site-name {
+        text-decoration-color: transparent;
+        /* background-color: var(--header-background-color); */
+        color: var(--header-text-color);
+
+        a {
+            text-decoration-color: transparent;
+        }
+    }
+}
+
+a {
+    color: var(--link-text-color);
+}
+a:visited {
+    text-decoration-color: var(--link-visited-underline-color);
+}
+a:active,
+a:hover {
+    text-decoration-color: var(--link-hover-underline-color);
+}

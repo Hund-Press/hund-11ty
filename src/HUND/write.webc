@@ -1,0 +1,7 @@
+---
+layout: ../HUND/HUND.webc
+permalink: /HUND/write/index.html
+---
+
+<h1>Recent drafts</h1>
+<title-list webc:nokeep :collection="collections.drafts"></title-list>

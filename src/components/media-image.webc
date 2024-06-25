@@ -1,0 +1,7 @@
+<img
+    webc:is="eleventy-image"
+    :src="`./src/files/images/${file}`"
+    :alt="alt"
+    :width="width"
+    :sizes="sizes"
+/>

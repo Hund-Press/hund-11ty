@@ -1,0 +1,14 @@
+---
+date: 2024-05-25T08:00:00-04:00
+slug: webc-style
+title: Hoping webc works
+abstract: Otherwise i might cry
+---
+
+<h1>Hoping webc works</h1>
+
+<media-image alt="puppy" file="IMG_2981.jpeg"></media-image>
+
+<p>Otherwise i might cry</p>
+
+<basic-clock></basic-clock>

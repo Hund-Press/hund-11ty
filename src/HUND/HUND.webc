@@ -1,0 +1,33 @@
+---
+layout: root
+---
+
+<link rel="stylesheet" href="../styles/original/type.css" />
+<link rel="stylesheet" href="../styles/original/space.css" />
+<link rel="stylesheet" href="../styles/original/color.css" />
+<link rel="stylesheet" href="../styles/original/transitions.css" />
+
+<style>
+    body {
+        font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+            sans-serif;
+        font-weight: normal;
+    }
+</style>
+
+<!--- <header webc:is="site-header" :site="site" webc:nokeep></header> --->
+
+<header>back to <a href="/" @raw="site.name"></a></header>
+
+<main @raw="content" webc:keep></main>
+
+<footer webc:is="site-footer">
+    <span>&copy; 2024</span>
+</footer>
+
+<!-- <object-inspector label="pageUrl" :obj="pageUrl"></object-inspector> -->
+
+<!---
+X . Y . Width . Height
+viewBox="0 250 1200 700"
+--->
