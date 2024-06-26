@@ -1,39 +1,39 @@
 <header>
-    <div id="site-name"><a @raw="site.name" href="/"></a></div>
-    <nav webc:is="site-nav" :items="site.nav" :pageUrl="page.url"></nav>
+  <div id="site-name"><a @raw="site.name" href="/"></a></div>
+  <nav webc:is="site-nav" :items="site.nav" :pageUrl="page.url"></nav>
 </header>
 
 <style>
-    body > header {
-        padding: 0 var(--space-xs);
+  body > header {
+    padding: 0 var(--space-xs);
 
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: baseline;
-        flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
 
-        > #site-name {
-            width: fit-content;
-            height: auto;
-        }
-        > p {
-            margin: 0;
-        }
-
-        > nav {
-            width: fit-content;
-            height: auto;
-
-            display: flex;
-            gap: var(--space-s);
-
-            a {
-                display: block;
-                width: 100%;
-                height: auto;
-                padding: 0 var(--space-xs) 0 0;
-            }
-        }
+    > #site-name {
+      width: fit-content;
+      height: auto;
     }
+    > p {
+      margin: 0;
+    }
+
+    > nav {
+      width: fit-content;
+      height: auto;
+
+      display: flex;
+      gap: var(--space-s);
+
+      a {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0 var(--space-xs) 0 0;
+      }
+    }
+  }
 </style>

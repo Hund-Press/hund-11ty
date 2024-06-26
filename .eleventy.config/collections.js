@@ -7,14 +7,14 @@ module.exports = function (config) {
     config.addCollection(section, function (collectionApi) {
       return collectionApi
         .getFilteredByGlob(
-          collectionsPath + section + "/" + publishDirName + "/*.*",
+          collectionsPath + section + "/" + publishDirName + "/*.*"
         )
         .reverse();
     });
 
     config.addCollection(section + "_timeline", function (collectionApi) {
       const posts = collectionApi.getFilteredByGlob(
-        collectionsPath + section + "/" + publishDirName + "/*.*",
+        collectionsPath + section + "/" + publishDirName + "/*.*"
       );
       return posts;
     });

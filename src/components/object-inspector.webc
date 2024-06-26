@@ -1,4 +1,4 @@
 <section>
-    <h2 @raw="label"></h2>
-    <pre @raw="debug(obj)"></pre>
+  <h2 @raw="label"></h2>
+  <pre @raw="debug(obj)"></pre>
 </section>
