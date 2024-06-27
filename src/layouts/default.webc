@@ -8,16 +8,18 @@ layout: root
 <link rel="stylesheet" href="../styles/original/transitions.css" />
 
 <header webc:is="site-header" :site="site" webc:nokeep></header>
-
+<!---
+<div @raw="styles"></div>
+--->
 <main @raw="content" webc:keep></main>
 
 <footer webc:is="site-footer">
-    <span>&copy; 2024</span>
+  <span>&copy; 2024</span>
 </footer>
 
 <hund-button
-    @:drafts="collections.drafts"
-    webc:if="hund && hund.enabled"
+  @:drafts="collections.drafts"
+  webc:if="hund && hund.enabled"
 ></hund-button>
 
 <!-- <object-inspector label="pageUrl" :obj="pageUrl"></object-inspector> -->
