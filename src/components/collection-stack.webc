@@ -1,7 +1,7 @@
-<div class="stack-items">
+<div class="stack-collection-items">
   <template webc:for="item of collection" webc:nokeep>
     <article
-      webc:is="stack-item"
+      webc:is="collection-item"
       :item="item"
       :date="item.page.date"
       :url="item.page.url"

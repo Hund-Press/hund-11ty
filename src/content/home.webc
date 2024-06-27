@@ -3,4 +3,7 @@ layout: default.webc
 permalink: /
 ---
 
-<stack-items webc:nokeep :collection="collections.posts"></stack-items>
+<collection-stack
+  :collection="collections.posts"
+  webc:nokeep
+></collection-stack>
