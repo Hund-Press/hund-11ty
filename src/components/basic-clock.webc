@@ -1,3 +1,21 @@
+<div class="watch-case">
+  <div class="watch-face">
+    <div class="watch-points">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+    <div class="watch-arms">
+      <span class="hours"></span>
+      <span class="minutes"></span>
+      <span class="seconds"></span>
+    </div>
+  </div>
+</div>
+
 <style webc:scoped>
   :host {
     contain: layout;
@@ -253,7 +271,7 @@
   i:nth-child(60) {
     transform: rotate(360deg) translate(0, -172px);
   }
-  .watchtips {
+  .watch-arms {
     height: 300px;
     width: 300px;
     position: absolute;
@@ -343,21 +361,3 @@
     }
   }
 </style>
-
-<div class="watch-case">
-  <div class="watch-face">
-    <div class="watch-points">
-      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
-      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
-      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
-      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
-      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
-      ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    </div>
-    <div class="watch-tips">
-      <span class="hours"></span>
-      <span class="minutes"></span>
-      <span class="seconds"></span>
-    </div>
-  </div>
-</div>
