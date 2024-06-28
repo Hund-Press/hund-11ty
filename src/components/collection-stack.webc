@@ -1,4 +1,4 @@
-<div class="stack-collection-items">
+<div class="collection-stack">
   <template webc:for="item of collection" webc:nokeep>
     <article
       webc:is="collection-item"
@@ -10,10 +10,11 @@
     ></article>
     <!--- <object-inspector label="item.page" :obj="item.page"></object-inspector> -->
   </template>
+  <div @raw="pins"></div>
 </div>
 
 <style>
-  .stack-items {
+  .collection-stack {
     > article {
       margin: 0 auto var(--space-m);
       padding: 0 var(--space-xs);
