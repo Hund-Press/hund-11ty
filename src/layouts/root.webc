@@ -15,9 +15,35 @@ styles: original
     <meta name="description" :content="site.description" />
     <meta name="view-transition" content="same-origin" />
 
-    <link rel="stylesheet" href="../styles/util/font-faces.css" />
     <link rel="stylesheet" href="../styles/util/type-scale.css" />
     <link rel="stylesheet" href="../styles/util/space-scale.css" />
+
+    <!-- TODO -->
+    <!-- if (production) { -->
+    <!--     <link rel="stylesheet" href="../styles/util/font-faces.css" /> -->
+    <!-- } else { -->
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+      href="/fonts/Rosario-400-8bec7e5021.woff2"
+    />
+    <style>
+      @font-face {
+        font-display: swap;
+        font-family: Rosario;
+        font-stretch: normal;
+        font-style: normal;
+        font-weight: 400;
+        src: url(/fonts/Rosario-400-8bec7e5021.woff2) format("woff2");
+        text-rendering: optimizeLegibility;
+        unicode-range: u+20, u+27, u+2c, u+2e, u+30, u+32, u+34-36, u+38-39,
+          u+3b, u+3f, u+41-49, u+4b-57, u+61-79;
+      }
+    </style>
+    <!-- }  -->
+    <!-- /TODO  -->
 
     <!-- <script webc:keep>
             // TODO: if serviceWorker in navigator

@@ -7,6 +7,7 @@
 
   --link-text-color: inherit;
   --link-text-decoration: underline;
+  --dog-color: white;
 }
 body {
   background-color: var(--body-background-color);

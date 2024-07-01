@@ -6,10 +6,10 @@ module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/dates"));
   config.addPlugin(require("./.eleventy.config/passthrough"));
   config.addPlugin(require("./.eleventy.config/rss"));
+  config.addPlugin(require("./.eleventy.config/hund"));
   config.addPlugin(require("./.eleventy.config/_inspect"));
 
   config.addWatchTarget("src/styles/**/*.css");
-
   return {
     dir: {
       output: "dist",
@@ -17,7 +17,6 @@ module.exports = (config) => {
       data: "data",
       layouts: "layouts",
       includes: "",
-      templateFormats: ["html", "md", "webc"],
     },
   };
 };

@@ -1,5 +1,5 @@
 let sections = ["posts"];
-let collectionsPath = "./src/content/";
+let collectionsPath = "./src/pages/";
 let publishDirName = "published";
 
 module.exports = function (config) {

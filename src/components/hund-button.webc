@@ -11,33 +11,24 @@
     /></svg
 ></a>
 
-<a href="/HUND/write/">WRITE</a>
-<a href="/HUND/design/">DESIGN</a>
-<a href="/HUND/build/">BUILD</a>
-<a href="/HUND/config/">configure</a>
-
 <style webc:scoped>
   :host {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 1rem;
+    right: 1rem;
 
-    width: fit-content;
-    padding: var(--space-xs);
-    background: pink;
-
-    display: flex;
-    justify-content: flex-end;
-    gap: var(--space-xs);
-    .hund-title {
-      font-weight: bold;
+    a:link {
+      display: block;
+      padding: 1rem;
+      background-color: black;
     }
-    /* .hund-tools-wrap {
-            display: flex;
-        } */
-
-    /* height: var(--space-l);
-        width: var(--space-l);
-        border-radius: 50%; */
+    svg {
+      display: block;
+      width: var(--space-m);
+      aspect-ratio: 1/1;
+      path {
+        fill: var(--dog-color);
+      }
+    }
   }
 </style>
