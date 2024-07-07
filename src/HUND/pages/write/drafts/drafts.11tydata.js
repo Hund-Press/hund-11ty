@@ -1,6 +1,6 @@
 module.exports = {
   collection: "drafts",
-  layout: "collection-item/post.webc",
+  layout: "../HUND/layouts/default.webc",
   permalink(data) {
     return `/${data.collection}/${data.slug}/`;
   },

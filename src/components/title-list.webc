@@ -1,6 +1,5 @@
 <ul>
   <li webc:for="item of collection">
     <a :href="item.page.url" @raw="item.data.title"></a>
-    <!--- <object-inspector label="item.page" :obj="item.page"></object-inspector> -->
   </li>
 </ul>

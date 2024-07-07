@@ -1,5 +1,6 @@
 ---
 layout: root
+styles: original
 ---
 
 <link rel="stylesheet" href="../styles/original/type.css" />
@@ -8,19 +9,14 @@ layout: root
 <link rel="stylesheet" href="../styles/original/transitions.css" />
 
 <header webc:is="site-header" :site="site" webc:nokeep></header>
-<!---
-<div @raw="styles"></div>
---->
+
 <main @raw="content" webc:keep></main>
 
-<footer webc:is="site-footer">
-  <span>&copy; 2024</span>
-</footer>
+<hund-root>
+    <hund-button></hund-button>
+</hund-root>
 
-<hund-button
-  @:drafts="collections.drafts"
-  webc:if="hund && hund.enabled"
-></hund-button>
+<footer webc:is="site-footer"></footer>
 
 <!-- <object-inspector label="pageUrl" :obj="pageUrl"></object-inspector> -->
 

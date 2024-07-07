@@ -1,14 +1,13 @@
 <div class="collection-stack">
   <template webc:for="item of collection" webc:nokeep>
     <article
-      webc:is="collection-item"
+      webc:is="item-post"
       :item="item"
       :date="item.page.date"
       :url="item.page.url"
       :title="item.data.title || ''"
       :abstract="item.data.abstract"
     ></article>
-    <!--- <object-inspector label="item.page" :obj="item.page"></object-inspector> -->
   </template>
   <div @raw="pins"></div>
 </div>

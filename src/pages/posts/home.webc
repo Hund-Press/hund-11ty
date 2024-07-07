@@ -1,9 +1,0 @@
----
-layout: default.webc
-permalink: /posts/index.html
----
-
-<collection-stack
-  :collection="collections.posts"
-  webc:nokeep
-></collection-stack>

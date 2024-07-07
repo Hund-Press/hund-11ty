@@ -1,20 +1,20 @@
 let sections = ["posts"];
 let collectionsPath = "./src/pages/";
-let publishDirName = "published";
+let collectionPublishedDirName = "published";
 
 module.exports = function (config) {
   sections.forEach((section) => {
     config.addCollection(section, function (collectionApi) {
       return collectionApi
         .getFilteredByGlob(
-          collectionsPath + section + "/" + publishDirName + "/*.*"
+          collectionsPath + section + "/" + collectionPublishedDirName + "/*.*",
         )
         .reverse();
     });
 
-    config.addCollection(section + "_timeline", function (collectionApi) {
+    config.addCollection(section + "_sequence", function (collectionApi) {
       const posts = collectionApi.getFilteredByGlob(
-        collectionsPath + section + "/" + publishDirName + "/*.*"
+        collectionsPath + section + "/" + collectionPublishedDirName + "/*.*",
       );
       return posts;
     });

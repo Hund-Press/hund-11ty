@@ -1,6 +1,6 @@
 ---
 layout: default.webc
-permalink: /
+permalink: /posts/index.html
 ---
 
 <items-stacked :collection="collections.posts" webc:nokeep></items-stacked>

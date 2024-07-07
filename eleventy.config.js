@@ -5,7 +5,7 @@ module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/markdown"));
   config.addPlugin(require("./.eleventy.config/dates"));
   config.addPlugin(require("./.eleventy.config/passthrough"));
-  config.addPlugin(require("./.eleventy.config/rss"));
+  config.addPlugin(require("./.eleventy.config/feeds"));
   config.addPlugin(require("./.eleventy.config/hund"));
   config.addPlugin(require("./.eleventy.config/_inspect"));
 
