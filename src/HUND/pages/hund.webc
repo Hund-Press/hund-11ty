@@ -1,0 +1,6 @@
+---
+layout: ../HUND/layouts/default.webc
+permalink: /HUND/index.html
+---
+
+<items-stacked :collection="collections.posts" webc:nokeep></items-stacked>

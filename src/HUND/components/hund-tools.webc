@@ -1,7 +1,8 @@
-<div class="hund-tools">HUND TOOLS</div>
+<div>HUND TOOLS</div>
 
-<style>
-  .hund-tools {
-    background: purple;
+<style webc:scoped>
+  :host {
+    background: red;
+    color: white;
   }
 </style>

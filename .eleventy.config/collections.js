@@ -21,7 +21,9 @@ module.exports = function (config) {
   });
 
   config.addCollection("drafts", function (collectionApi) {
-    const drafts = collectionApi.getFilteredByGlob("./src/HUND/drafts/*.*");
+    const drafts = collectionApi.getFilteredByGlob(
+      "./src/HUND/pages/write/drafts/*.*",
+    );
     return drafts;
   });
 };

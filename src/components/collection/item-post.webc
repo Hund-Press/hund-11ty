@@ -4,5 +4,5 @@
   </h1>
   <div webc:if="abstract" class="abstract" @raw="abstract"></div>
   <div webc:else @raw="item.content" webc:nokeep></div>
-  <datetime><a @raw="postDate(date)" :href="url"> </a></datetime>
+  <datetime><a @raw="postDate(date)" :href="url"></a></datetime>
 </article>

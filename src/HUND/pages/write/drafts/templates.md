@@ -1,3 +1,10 @@
+---
+date: 2024-06-30T08:00:00-04:00
+slug: what-is-a-template
+title: What is a template?
+abstract: It's more complicated than you might think.
+---
+
 There is a vast amount of software in the world that needs to take in-memory and turn it into HTML.
 
 In templating engines, a common type of software used to generate HTML from structured data, a "template file" is a document written in a templating language, used by a templating engine to turn structured data into html files.

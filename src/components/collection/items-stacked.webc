@@ -7,6 +7,7 @@
       :url="item.page.url"
       :title="item.data.title || ''"
       :abstract="item.data.abstract"
+      :isHund="true"
     ></article>
   </template>
   <div @raw="pins"></div>

@@ -12,9 +12,7 @@ styles: original
 
 <main @raw="content" webc:keep></main>
 
-<hund-root>
-    <hund-button></hund-button>
-</hund-root>
+<hund-root></hund-root>
 
 <footer webc:is="site-footer"></footer>
 

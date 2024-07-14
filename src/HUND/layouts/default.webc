@@ -3,12 +3,19 @@ layout: root
 ---
 
 <link rel="stylesheet" href="../../styles/original/type.css" />
-<!---
-<link rel="stylesheet" href="../styles/original/space.css" />
---->
+<link rel="stylesheet" href="../../styles/original/space.css" />
 <link rel="stylesheet" href="../../styles/original/color.css" />
 <link rel="stylesheet" href="../../styles/original/transitions.css" />
 
+<header webc:is="site-header" :site="site" webc:nokeep></header>
+
+<main @raw="content"></main>
+
+<hund-root @open="open"></hund-root>
+
+<footer webc:is="site-footer"></footer>
+
+<!--- --
 <style>
   :root {
     --width-full: 100%;
@@ -33,9 +40,11 @@ layout: root
     min-height: 10em;
   }
 
+  /*
   :root {
     scrollbar-gutter: stable;
   }
+  */
   body {
     background: orange;
     margin: 0;
@@ -56,16 +65,11 @@ layout: root
     background: pink;
   }
 </style>
-
-<header>back to <a href="/" @raw="site.name"></a></header>
-
-<main @raw="content"></main>
-
-<div id="hund-root">
-  <hund-button></hund-button>
-</div>
+--->
 
 <!---
+<items-one-line :collection="collections.drafts"></items-one-line>
+
 X . Y . Width . Height
 viewBox="0 250 1200 700"
 --->
