@@ -37,21 +37,6 @@ body {
   line-height: var(--body-line-height);
 }
 
-body > header {
-  > #site-name {
-    font-family: var(--brand-font-family);
-    font-size: var(--brand-font-size);
-    font-weight: var(--brand-font-weight);
-    line-height: var(--brand-line-height);
-  }
-  body > header > nav {
-    font-size: var(--step--1);
-    font-weight: var(--font-weight-normal);
-    line-height: var(--body-line-height);
-    line-height: 1.2;
-  }
-}
-
 body > footer {
   > span {
     font-size: var(--step--1);

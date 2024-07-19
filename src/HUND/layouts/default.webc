@@ -1,5 +1,5 @@
 ---
-layout: root
+layout: default
 ---
 
 <link rel="stylesheet" href="../../styles/original/type.css" />
@@ -7,69 +7,10 @@ layout: root
 <link rel="stylesheet" href="../../styles/original/color.css" />
 <link rel="stylesheet" href="../../styles/original/transitions.css" />
 
-<header webc:is="site-header" :site="site" webc:nokeep></header>
+<header webc:is="site-header" :site="site" ></header>
 
 <main @raw="content"></main>
 
-<hund-root @open="open"></hund-root>
-
 <footer webc:is="site-footer"></footer>
 
-<!--- --
-<style>
-  :root {
-    --width-full: 100%;
-    --width-readable: min(48ch, var(--width-full));
-    --gutter-primary: var(--space-2xs);
-  }
-
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-
-  img,
-  picture {
-    max-width: 100%;
-    display: block;
-    height: auto;
-  }
-
-  textarea:not([rows]) {
-    min-height: 10em;
-  }
-
-  /*
-  :root {
-    scrollbar-gutter: stable;
-  }
-  */
-  body {
-    background: orange;
-    margin: 0;
-  }
-
-  header {
-    background: yellow;
-    background-color: var(--header-background-color);
-    color: var(--header-text-color);
-  }
-  main {
-    background: green;
-  }
-  #hund-root {
-    font-family: Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
-      sans-serif;
-    font-weight: normal;
-    background: pink;
-  }
-</style>
---->
-
-<!---
-<items-one-line :collection="collections.drafts"></items-one-line>
-
-X . Y . Width . Height
-viewBox="0 250 1200 700"
---->
+<hund-root @open="open"></hund-root>

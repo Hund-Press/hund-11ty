@@ -1,10 +1,12 @@
-<header>
   <div id="site-name"><a @raw="site.name" href="/"></a></div>
   <nav webc:is="site-nav" :items="site.nav" :pageUrl="page.url"></nav>
-</header>
 
-<style>
-  body > header {
+<style webc:scoped>
+  :host {
+    flex: 0 0 auto;
+
+    width: var(--width-readable);
+    margin: var(--space-s) auto var(--space-l);
     padding: 0 var(--space-xs);
 
     display: flex;
@@ -16,7 +18,20 @@
     > #site-name {
       width: fit-content;
       height: auto;
+
+      font-family: var(--brand-font-family);
+      font-size: var(--brand-font-size);
+      font-weight: var(--brand-font-weight);
+      line-height: var(--brand-line-height);
+
+      color: var(--header-text-color);
+      text-decoration-color: transparent;
+
+      a {
+        text-decoration-color: transparent;
+      }
     }
+
     > p {
       margin: 0;
     }
@@ -28,6 +43,11 @@
       display: flex;
       gap: var(--space-s);
 
+      font-size: var(--step--1);
+      font-weight: var(--font-weight-normal);
+      line-height: var(--body-line-height);
+      line-height: 1.2;
+
       a {
         display: block;
         width: 100%;
@@ -35,5 +55,14 @@
         padding: 0 var(--space-xs) 0 0;
       }
     }
+    .site-logo {
+      padding: 0 var(--space-s);
+      svg {
+        display: block;
+        width: var(--space-l);
+        height: auto;
+        margin: 0 auto;
+      }
+    }
   }
-</style>
+</style >

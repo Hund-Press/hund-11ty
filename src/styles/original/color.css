@@ -15,18 +15,6 @@ body {
   color: var(--body-text-color);
 }
 
-body > header {
-  > #site-name {
-    text-decoration-color: transparent;
-    /* background-color: var(--header-background-color); */
-    color: var(--header-text-color);
-
-    a {
-      text-decoration-color: transparent;
-    }
-  }
-}
-
 a {
   color: var(--link-text-color);
 }

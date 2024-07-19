@@ -8,13 +8,13 @@ styles: original
 <link rel="stylesheet" href="../styles/original/color.css" />
 <link rel="stylesheet" href="../styles/original/transitions.css" />
 
-<header webc:is="site-header" :site="site" webc:nokeep></header>
+<header webc:is="site-header" :site="site"></header>
 
 <main @raw="content" webc:keep></main>
 
-<hund-root></hund-root>
-
 <footer webc:is="site-footer"></footer>
+
+<hund-root></hund-root>
 
 <!-- <object-inspector label="pageUrl" :obj="pageUrl"></object-inspector> -->
 

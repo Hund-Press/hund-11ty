@@ -36,12 +36,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
-  header {
-    flex: 0 0 auto;
-    width: var(--width-readable);
-    margin: var(--space-s) auto var(--space-l);
-    /* background: red !important; */
-  }
   main {
     flex: 1 1 auto;
     /* background: orange !important; */
@@ -60,9 +54,6 @@ body {
 
 body > footer {
   padding: 0 var(--space-s);
-}
-
-main > article:has(header, h1, .abstract, footer) > * {
 }
 
 main > article:only-of-type {

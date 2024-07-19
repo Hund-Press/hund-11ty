@@ -1,4 +1,5 @@
 <a webc:if="open == 'open'" href="/"><span>X</span></a>
+
 <a webc:else href="/hund/"
   ><svg
     role="img"

@@ -1,13 +1,10 @@
-<hund-root id="hund-root">
-  <hund-button :@open="open"></hund-button>
-  <hund-panel webc:if="open=='open'"></hund-panel>
-</hund-root>
+<hund-button :@open="open"></hund-button>
+<hund-panel :@open="open"></hund-panel>
 
 <style webc:scoped>
   :host {
     position: fixed;
     bottom: 0;
-    /* right: 0; */
     width: fit-content;
     width: 100%;
     height: auto;
