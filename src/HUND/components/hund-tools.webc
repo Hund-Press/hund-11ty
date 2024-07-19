@@ -1,8 +1,0 @@
-<div>HUND TOOLS</div>
-
-<style webc:scoped>
-  :host {
-    background: red;
-    color: white;
-  }
-</style>
