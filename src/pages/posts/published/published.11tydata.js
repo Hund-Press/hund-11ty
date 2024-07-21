@@ -1,8 +1,6 @@
-// let hashGen = require("hash-generator");
-
 module.exports = {
   collection: "posts",
-  layout: "collection-item/post.webc",
+  layout: "page-post-full.webc",
   permalink(data) {
     return `/${data.collection}/${data.slug}/`;
   },

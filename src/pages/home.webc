@@ -1,6 +1,9 @@
 ---
-layout: default.webc
+layout: body.webc
 permalink: /
 ---
+<author-profile></author-profile>
 
-<items-stacked :collection="collections.posts" webc:nokeep></items-stacked>
+<posts-stack :collection="collections.posts" webc:nokeep>
+    <h2 slot="heading">Recent posts</h2 >
+</posts-stack>

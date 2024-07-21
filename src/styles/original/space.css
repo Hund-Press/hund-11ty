@@ -21,11 +21,9 @@ textarea:not([rows]) {
   min-height: 10em;
 }
 
-/*
-  :root {
-    scrollbar-gutter: stable;
-  }
-*/
+:root {
+  scrollbar-gutter: stable;
+}
 
 body {
   padding: 0;

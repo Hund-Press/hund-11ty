@@ -1,5 +1,0 @@
-<ul>
-  <li webc:for="item of collection">
-    <a :href="item.page.url" @raw="item.data.title"></a>
-  </li>
-</ul>

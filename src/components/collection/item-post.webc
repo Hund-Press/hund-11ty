@@ -1,8 +1,0 @@
-<article>
-  <h1 webc:if="title">
-    <a @raw="title" :href="url"></a>
-  </h1>
-  <div webc:if="abstract" class="abstract" @raw="abstract"></div>
-  <template webc:else @raw="item.content" webc:nokeep></template>
-  <datetime><a @raw="postDate(date)" :href="url"></a></datetime>
-</article>

@@ -4,7 +4,7 @@ module.exports = {
   description: "Writing here on my website when I feel like it.",
   isProduction: Boolean(process.env.PRODUCTION),
   language: "en",
-  nav: [],
+  nav: [{ url: "/posts", label: "Posts" }],
   color: {
     theme: "#000",
     background: "#fff",

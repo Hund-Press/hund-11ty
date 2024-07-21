@@ -1,6 +1,6 @@
 ---
-layout: default.webc
+layout: body.webc
 permalink: /posts/index.html
 ---
 
-<items-stacked :collection="collections.posts" webc:nokeep></items-stacked>
+<posts-stack :collection="collections.posts" webc:nokeep></posts-stack>
