@@ -1,22 +1,22 @@
 module.exports = {
-  writers: [
+  contributors: [
     {
-      name: "Kulap Agnarsson",
-      slug: "kulap",
+      name: "Kiran Van Dael",
+      slug: "kiran",
       bio: "A brief description of me as an author.",
       image: {
-        src: "./src/assets/image.jpg",
-        alt: "a broken image URL",
+        file: "author.jpg",
+        alt: "photo of the author",
       },
       contact: {
-        email: "kulap@example.com",
+        email: "kiran@example.com",
       },
     },
   ],
   publisher: {},
   editor: {
-    name: "Kulap Agnarsson",
-    writerSlug: "kulap",
+    name: "Kiran Van Dael",
+    writerSlug: "kiran",
   },
   contributors: [],
 };

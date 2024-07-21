@@ -22,7 +22,7 @@
     > article {
 
       > * {
-        margin: 0 auto var(--space-2xs);
+        margin: 0 auto var(--space-xs);
       }
 
       > h1 {

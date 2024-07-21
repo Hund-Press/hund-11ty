@@ -3,10 +3,11 @@
     <media-image alt="bowling" file="author.jpg"></media-image>
     <figcaption>&copy; Vyacheslav Argenberg / <a href="http://www.vascoplanet.com/">http://www.vascoplanet.com/</a></figcaption>
   </figure>
-  <div class="author-bio">
+  <pdiv class="author-bio">
     <p>
-      Etiam id consequat elit, eu faucibus tortor. Vivamus vestibulum laoreet sapien, non pretium libero pharetra pharetra. Sed congue mauris eget turpis efficitur, id vestibulum quam vestibulum. Phasellus eget rhoncus mi. Sed euismod blandit blandit. Duis efficitur euismod libero, quis placerat lorem ullamcorper ac. Suspendisse potenti. Aenean vestibulum eu quam sed pulvinar. Nulla porta efficitur sapien, et gravida tortor vestibulum at. Fusce pellentesque dignissim semper. Nulla ut laoreet mauris, et viverra metus. In vitae euismod elit.
+     Hello, I am proud to be a fake author created purely for the sake of taking up illustrative space on this fake website. You will want to replace my name and bio with information about yourself. Your name is configured in /src/data/site.js, and this bio is in /src/components/author-profile.webc. Best of luck to you!
     </p>
+    <div><a href="">Read more</a></div>
   </div>
 </div>
 
