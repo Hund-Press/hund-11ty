@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../../styles/original/post-full.css" />
+<link rel="stylesheet" href="../../styles/post-full.css" />
 
 <article>
   <h1 webc:if="title">

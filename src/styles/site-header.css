@@ -32,25 +32,6 @@ body > header {
     margin: 0;
   }
 
-  > nav {
-    width: fit-content;
-    height: auto;
-
-    display: flex;
-    gap: var(--space-s);
-
-    font-size: var(--step--1);
-    font-weight: var(--font-weight-normal);
-    line-height: var(--body-line-height);
-    line-height: 1.2;
-
-    a {
-      display: block;
-      width: 100%;
-      height: auto;
-      padding: 0 var(--space-xs) 0 0;
-    }
-  }
   .site-logo {
     padding: 0 var(--space-s);
     svg {

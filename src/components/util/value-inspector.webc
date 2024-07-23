@@ -1,4 +1,4 @@
 <section>
   <h2 @raw="label"></h2>
-  <pre @raw="debug(obj)"></pre>
+  <pre @raw="inspectValue(obj)"></pre>
 </section>

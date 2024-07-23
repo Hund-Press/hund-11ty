@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/webc"));
   config.addPlugin(require("./.eleventy.config/collections"));
@@ -7,9 +9,11 @@ module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/passthrough"));
   config.addPlugin(require("./.eleventy.config/feeds"));
   config.addPlugin(require("./.eleventy.config/hund"));
-  config.addPlugin(require("./.eleventy.config/_inspect"));
 
-  config.addWatchTarget("src/styles/**/*.css");
+  if (process.env.ENVIRONMENT === "development") {
+    config.addPlugin(require("./.eleventy.config/local-dev"));
+  }
+
   return {
     dir: {
       output: "dist",

@@ -1,5 +1,5 @@
 let sections = ["posts"];
-let collectionsPath = "./src/pages/";
+let collectionsRoot = "./src/pages/";
 let collectionPublishedDirName = "published";
 
 module.exports = function (config) {
@@ -7,14 +7,14 @@ module.exports = function (config) {
     config.addCollection(section, function (collectionApi) {
       return collectionApi
         .getFilteredByGlob(
-          collectionsPath + section + "/" + collectionPublishedDirName + "/*.*",
+          collectionsRoot + section + "/" + collectionPublishedDirName + "/*.*",
         )
         .reverse();
     });
 
     config.addCollection(section + "_sequence", function (collectionApi) {
       const posts = collectionApi.getFilteredByGlob(
-        collectionsPath + section + "/" + collectionPublishedDirName + "/*.*",
+        collectionsRoot + section + "/" + collectionPublishedDirName + "/*.*",
       );
       return posts;
     });

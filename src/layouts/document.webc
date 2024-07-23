@@ -11,14 +11,13 @@
     <meta name="description" :content="site.description" />
     <meta name="view-transition" content="same-origin" />
 
-    <link rel="stylesheet" href="../styles/util/type-scale.css" />
-    <link rel="stylesheet" href="../styles/util/space-scale.css" />
+    <link rel="stylesheet" href="../styles/root/type-scale.css" />
+    <link rel="stylesheet" href="../styles/root/space-scale.css" />
+    <link rel="stylesheet" href="../styles/root/font-faces.css" />
 
     <!-- TODO -->
     <!-- if (production) { -->
-    <!--     <link rel="stylesheet" href="../styles/util/font-faces.css" /> -->
     <!-- } else { -->
-
     <link
       rel="preload"
       as="font"

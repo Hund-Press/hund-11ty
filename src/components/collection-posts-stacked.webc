@@ -1,5 +1,4 @@
-
-<link rel="stylesheet" href="../styles/original/posts-stack.css" />
+<link rel="stylesheet" href="../styles/posts-stack.css" />
 
 <div class="collection-stack">
 
@@ -19,4 +18,5 @@
       :isHund="true"
     ></article>
   </template>
+
 </div>

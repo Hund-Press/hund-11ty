@@ -1,15 +1,15 @@
 module.exports = {
   contributors: [
     {
-      name: "Kiran Van Dael",
-      slug: "kiran",
+      name: "Dana Babatunde",
+      slug: "danaba",
       bio: "A brief description of me as an author.",
       image: {
         file: "author.jpg",
         alt: "photo of the author",
       },
       contact: {
-        email: "kiran@example.com",
+        email: "danaba@example.com",
       },
     },
   ],
