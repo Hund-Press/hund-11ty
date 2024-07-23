@@ -1,3 +1,3 @@
 module.exports = function (config) {
-  config.addPassthroughCopy({ "src/HUND/subfont/*.woff2": "fonts" });
+  config.addPassthroughCopy({ "src/HUND/files/subfont/**/*.woff2": "fonts" });
 };

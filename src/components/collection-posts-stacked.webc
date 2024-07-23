@@ -1,0 +1,22 @@
+
+<link rel="stylesheet" href="../styles/original/posts-stack.css" />
+
+<div class="collection-stack">
+
+  <slot name="heading"></slot>
+
+  <collection-pins></collection-pins>
+  <collection-items></collection-items>
+
+  <template webc:for="item of collection" webc:nokeep>
+    <article
+      webc:is="collection-post-summary"
+      :item="item"
+      :date="item.page.date"
+      :url="item.page.url"
+      :title="item.data.title"
+      :abstract="item.data.abstract"
+      :isHund="true"
+    ></article>
+  </template>
+</div>

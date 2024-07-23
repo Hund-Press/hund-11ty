@@ -1,6 +1,6 @@
 module.exports = {
   url: process.env.SITE_URL || "http://localhost:8080",
-  name: "Kiran Van Dael",
+  name: "Dana Babatunde",
   description: "Writing here on my website when I feel like it.",
   isProduction: Boolean(process.env.PRODUCTION),
   language: "en",

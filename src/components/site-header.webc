@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../styles/original/header.css" />
+<link rel="stylesheet" href="../styles/original/site-header.css" />
 
 <header>
   <div id="site-name"><a @raw="site.name" href="/"></a></div>

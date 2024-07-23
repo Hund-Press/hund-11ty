@@ -1,8 +1,6 @@
 ---
 layout: body.webc
-permalink: /
+permalink: /posts/index.html
 ---
-
-<author-profile webc:nokeep></author-profile >
 
 <collection-posts-stacked :collection="collections.posts" webc:nokeep></collection-posts-stacked>

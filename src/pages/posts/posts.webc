@@ -1,6 +1,0 @@
----
-layout: body.webc
-permalink: /posts/index.html
----
-
-<posts-stack :collection="collections.posts" webc:nokeep></posts-stack>

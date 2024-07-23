@@ -1,18 +1,19 @@
 ---
-layout: root.webc
-styles: original
+layout: document.webc
 ---
 
 <link rel="stylesheet" href="../styles/original/type.css" />
 <link rel="stylesheet" href="../styles/original/space.css" />
-<link rel="stylesheet" href="../styles/original/color.css" />
+<link rel="stylesheet" href="../styles/original/colors.css" />
 <link rel="stylesheet" href="../styles/original/transitions.css" />
 
-<site-header :site="site" webc:nokeep></site-header>
-
-<main @raw="content" webc:keep></main>
-
-<site-footer></site-footer>
+<body>
+  <site-header :site="site" webc:nokeep></site-header>
+  <main>
+    <template @raw="content" webc:nokeep></template>
+  </main>
+  <site-footer :site="site" webc:nokeep></site-footer>
+</body>
 
 <!---
 X . Y . Width . Height

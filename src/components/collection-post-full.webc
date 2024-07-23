@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../../styles/original/post-full.css" />
+
 <article>
   <h1 webc:if="title">
     <a @raw="title" :href="url"></a>
