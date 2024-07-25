@@ -3,4 +3,7 @@ layout: body.webc
 permalink: /posts/index.html
 ---
 
-<collection-posts-stacked :collection="collections.posts" webc:nokeep></collection-posts-stacked>
+<collection-posts-stacked
+  :collection="collections.posts"
+  webc:nokeep>
+</collection-posts-stacked>

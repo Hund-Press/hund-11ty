@@ -7,7 +7,7 @@
 
     <style @raw="getBundle('css')" webc:keep></style>
 
-    <meta name="author" :content="masthead.editor.name" />
+    <meta name="author" :content="site.owner.name" />
     <meta name="description" :content="site.description" />
     <meta name="view-transition" content="same-origin" />
 
@@ -16,8 +16,13 @@
     <link rel="stylesheet" href="../styles/root/font-faces.css" />
 
     <!-- TODO -->
+    <!--- --
+    process.env.ELEVENTY_RUN_MODE
+    is one of build, serve, or watch
+    --->
     <!-- if (production) { -->
     <!-- } else { -->
+
     <link
       rel="preload"
       as="font"

@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="../styles/site-header.css" />
+<link rel="stylesheet" webc:scoped href="../styles/site-header.css" />
 
-<header>
+<header webc:root="override">
   <div id="site-name"><a @raw="site.name" href="/"></a></div>
   <nav id="site-nav">
     <template webc:nokeep webc:for="item of site.nav">

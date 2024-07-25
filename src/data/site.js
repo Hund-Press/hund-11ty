@@ -5,6 +5,15 @@ module.exports = {
   isProduction: Boolean(process.env.PRODUCTION),
   language: "en",
   nav: [{ url: "/posts", label: "Posts" }],
+  owner: {
+    name: "Dana Babatunde",
+    email: "danaba@example.com",
+    bio: "A brief description of me as an author.",
+    image: {
+      file: "author.jpg",
+      alt: "photo of the author",
+    },
+  },
   color: {
     theme: "#000",
     background: "#fff",

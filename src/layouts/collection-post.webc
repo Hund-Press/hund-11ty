@@ -1,5 +1,0 @@
----
-layout: body.webc
----
-
-<article @raw="content" webc:keep></article>

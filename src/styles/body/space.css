@@ -34,6 +34,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
+  header {
+    flex: 0 0 auto;
+
+    width: var(--width-readable);
+    margin: var(--space-s) auto var(--space-l);
+    padding: 0 var(--space-xs);
+  }
+
   main {
     flex: 1 1 auto;
     /* background: orange !important; */

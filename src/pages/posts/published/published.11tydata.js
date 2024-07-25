@@ -1,7 +1,6 @@
 module.exports = {
   collection: "posts",
-  layout: "collection-post.webc",
-  author: "danaba",
+  layout: "body.webc",
   permalink(data) {
     return `/${data.collection}/${data.slug}/`;
   },

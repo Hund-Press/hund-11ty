@@ -1,10 +1,5 @@
-body > header {
-  flex: 0 0 auto;
-
-  width: var(--width-readable);
-  margin: var(--space-s) auto var(--space-l);
-  padding: 0 var(--space-xs);
-
+/* body > header { */
+:host {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

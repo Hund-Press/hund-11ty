@@ -3,6 +3,10 @@ layout: body.webc
 permalink: /
 ---
 
-<author-profile webc:nokeep></author-profile >
 
-<collection-posts-stacked :collection="collections.posts" webc:nokeep></collection-posts-stacked>
+<collection-posts-stacked
+  :collection="collections.posts"
+  webc:nokeep>
+</collection-posts-stacked>
+
+<author-profile webc:nokeep></author-profile >
