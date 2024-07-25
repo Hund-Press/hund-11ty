@@ -1,5 +1,5 @@
 ---
-date: 2024-05-26T08:00:00-04:00
+date: 2024-05-26
 slug: this-is-fake
 abstract: Minuter we natural conduct gravity if pointed oh no. Am immediate unwilling of attempted admitting disposing it. Handsome opinions on am at it ladyship.
 ---

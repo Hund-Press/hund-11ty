@@ -1,5 +1,5 @@
 ---
-date: 2024-05-09T08:00:00-04:00
+date: 2024-05-09
 slug: lorem-ipsum
 
 title: Duis mauris mauris, pretium in vestibulum ac

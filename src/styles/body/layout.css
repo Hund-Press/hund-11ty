@@ -6,24 +6,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: var(--space-l);
+
+  header,
+  main,
+  footer {
+    width: var(--width-readable);
+    margin: 0 auto;
+  }
 
   header {
     flex: 0 0 auto;
-
-    width: var(--width-readable);
-    margin: var(--space-s) auto var(--space-l);
+    margin-top: var(--space-m);
   }
 
   main {
     flex: 1 1 auto;
-
-    width: var(--width-readable);
-    margin: 0 auto;
   }
   footer {
     flex: 0 0 auto;
-
-    width: var(--width-readable);
-    margin: var(--space-m) auto var(--space-l);
+    margin-bottom: var(--space-l);
   }
 }
