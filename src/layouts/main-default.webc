@@ -1,0 +1,7 @@
+---
+layout: body.webc
+---
+
+<main>
+  <template @raw="content" webc:nokeep ></template>
+</main>

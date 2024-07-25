@@ -1,7 +1,9 @@
+let sectionName = "posts";
+
 module.exports = {
-  collection: "posts",
-  layout: "body.webc",
+  layout: "main-post.webc",
+  tags: sectionName,
   permalink(data) {
-    return `/${data.collection}/${data.slug}/`;
+    return `/${sectionName}/${data.slug}/`;
   },
 };

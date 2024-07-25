@@ -1,0 +1,25 @@
+:root {
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  --brand-font-family: Rosario;
+  --brand-font-size: var(--step-3);
+  --brand-font-weight: var(--font-weight-bold);
+  --brand-line-height: 0.9;
+
+  --body-font-family: Rosario;
+  --body-font-size: var(--step-0);
+  --body-font-weight: var(--font-weight-normal);
+  --body-line-height: 1.5;
+
+  --heading-font-family: Rosario;
+  --heading-font-weight: var(--font-weight-semi-bold);
+  --heading-line-height: 1.2;
+}

@@ -6,8 +6,8 @@ module.exports = function (config) {
     "md",
     markdownIt({
       html: true,
-      breaks: true,
       linkify: true,
+      typographer: true,
     }).use(markdownItEleventyImg, {
       // should use same file
       imgOptions: {
@@ -21,6 +21,6 @@ module.exports = function (config) {
         decoding: "async",
         sizes: "(max-width: 48rem) 300px, (max-width: 62rem) 450px, 600px",
       },
-    })
+    }),
   );
 };

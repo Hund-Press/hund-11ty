@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="../styles/root/type-scale.css" />
     <link rel="stylesheet" href="../styles/root/space-scale.css" />
     <link rel="stylesheet" href="../styles/root/font-faces.css" />
+    <link rel="stylesheet" href="../styles/root/colors.css" />
+    <link rel="stylesheet" href="../styles/root/measures.css" />
+    <link rel="stylesheet" href="../styles/root/typography.css" />
 
-    <!-- TODO -->
     <!--- --
     process.env.ELEVENTY_RUN_MODE
     is one of build, serve, or watch

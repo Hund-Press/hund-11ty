@@ -1,5 +1,5 @@
 ---
-layout: doc-root.webc
+layout: root.webc
 ---
 
 <link rel="stylesheet" href="../styles/body/type.css" />
@@ -9,9 +9,7 @@ layout: doc-root.webc
 
 <body>
   <site-header :site="site"></site-header>
-  <main>
-    <template @raw="content" webc:nokeep></template>
-  </main>
+  <template @raw="content" webc:nokeep></template>
   <site-footer :site="site" webc:nokeep></site-footer>
 </body>
 
