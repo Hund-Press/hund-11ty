@@ -1,11 +1,11 @@
-.author-profile {
+:host {
   width: var(--width-readable);
   margin: 0 auto var(--space-m);
   background: #eee;
 
   display: flex;
 
-  figure.author-photo {
+  figure {
     margin: var(--space-s);
 
     figcaption {

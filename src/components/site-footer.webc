@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="../styles/site-footer.css" />
+<link rel="stylesheet" webc:scoped href="../styles/site-footer.css" />
 
-<footer>
+<footer webc:root="override">
   <span>&copy; 2024</span>
 </footer>

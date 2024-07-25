@@ -1,5 +1,4 @@
-.collection-stack {
-  margin: 0 auto var(--space-m);
+.posts-stack {
   padding: 0 var(--space-xs);
 
   > article {

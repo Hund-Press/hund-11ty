@@ -3,10 +3,6 @@ layout: main-default.webc
 permalink: /
 ---
 
+<posts-stack :collection="collections.posts" webc:nokeep></posts-stack>
 
-<collection-posts-stacked
-  :collection="collections.posts"
-  webc:nokeep>
-</collection-posts-stacked>
-
-<author-profile webc:nokeep></author-profile >
+<author-profile></author-profile>

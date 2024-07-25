@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="../styles/author-profile.css" />
+<link rel="stylesheet" webc:scoped href="../styles/author-profile.css" />
 
-<div class="author-profile">
+<div webc:root="override" class="author-profile">
   <figure class="author-photo">
     <media-image file="author.jpg" alt="bowling"></media-image>
     <figcaption>&copy; Vyacheslav Argenberg / <a href="http://www.vascoplanet.com/">http://www.vascoplanet.com/</a></figcaption>
