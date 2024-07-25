@@ -3,8 +3,11 @@ layout: root.webc
 ---
 
 <link rel="stylesheet" href="../styles/body/type.css" />
-<link rel="stylesheet" href="../styles/body/space.css" />
+<link rel="stylesheet" href="../styles/body/layout.css" />
 <link rel="stylesheet" href="../styles/body/colors.css" />
+<link rel="stylesheet" href="../styles/body/measures.css" />
+<link rel="stylesheet" href="../styles/body/forms.css" />
+<link rel="stylesheet" href="../styles/body/media.css" />
 <link rel="stylesheet" href="../styles/body/transitions.css" />
 
 <body>
