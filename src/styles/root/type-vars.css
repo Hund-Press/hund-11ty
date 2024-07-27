@@ -12,7 +12,7 @@
   --brand-font-family: Rosario;
   --brand-font-size: var(--step-3);
   --brand-font-weight: var(--font-weight-bold);
-  --brand-line-height: 0.9;
+  --brand-line-height: 1.2;
 
   --body-font-family: Rosario;
   --body-font-size: var(--step-0);
@@ -21,5 +21,5 @@
 
   --heading-font-family: Rosario;
   --heading-font-weight: var(--font-weight-semi-bold);
-  --heading-line-height: 1.2;
+  --heading-line-height: 1.5;
 }

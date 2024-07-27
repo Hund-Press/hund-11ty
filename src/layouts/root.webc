@@ -12,11 +12,15 @@
 
     <meta name="view-transition" content="same-origin" />
 
+    <link rel="stylesheet" href="../styles/root/resets.css" />
+
     <link rel="stylesheet" href="../styles/root/font-faces.css" />
     <link rel="stylesheet" href="../styles/root/type-scale.css" />
     <link rel="stylesheet" href="../styles/root/type-vars.css" />
+
     <link rel="stylesheet" href="../styles/root/space-scale.css" />
     <link rel="stylesheet" href="../styles/root/space-vars.css" />
+
     <link rel="stylesheet" href="../styles/root/color-vars.css" />
 
     <!--- --

@@ -1,9 +1,9 @@
-let sectionName = "posts";
+let section = "/posts/";
 
 module.exports = {
   layout: "main-post.webc",
-  tags: sectionName,
+  tags: "posts",
   permalink(data) {
-    return `/${sectionName}/${data.slug}/`;
+    return `${section}${data.slug}/`;
   },
 };

@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: var(--space-l);
+  gap: var(--space-m);
 
   header,
   main,
@@ -17,7 +17,7 @@ body {
 
   header {
     flex: 0 0 auto;
-    margin-top: var(--space-m);
+    margin-top: var(--space-xs);
   }
 
   main {
