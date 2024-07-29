@@ -19,7 +19,7 @@ module.exports = (config) => {
       output: "dist",
       input: "src",
       data: "data",
-      layouts: "layouts",
+      layouts: "html-layouts",
       includes: "",
     },
   };

@@ -1,5 +1,0 @@
-:root {
-  --width-full: 100%;
-  --width-readable: min(42ch, var(--width-full));
-  --gutter-primary: var(--space-2xs);
-}

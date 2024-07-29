@@ -1,6 +1,4 @@
 :root {
-  scrollbar-gutter: stable;
-
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
@@ -12,6 +10,7 @@
   box-sizing: border-box;
 }
 
+figure,
 h1,
 h2,
 h3,
