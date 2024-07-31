@@ -3,8 +3,6 @@
 <header webc:root="override">
   <div id="site-name"><a @raw="site.name" href="/"></a></div>
   <nav id="site-nav">
-    <template webc:nokeep webc:for="item of site.nav">
-      <a :href="item.url"><span @text="item.label"></span></a>
-    </template>
+    <a :href="item.url" webc:for="item of site.nav"><span @text="item.label"></span></a>
   </nav>
 </header>

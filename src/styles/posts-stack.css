@@ -13,29 +13,29 @@
       font-size: var(--step-0);
       font-weight: var(--font-weight-bold);
       line-height: var(--body-line-height);
+      line-height: 1.5;
       text-wrap: pretty;
+      /* margin-bottom: 0.1em; */
 
-      a:link {
-        text-decoration-color: transparent;
-      }
-
-      a:hover {
+      /* a:link {
         text-decoration-color: var(--link-text-color);
-      }
+      } */
     }
 
     > datetime {
       display: block;
       font-size: var(--step--2);
-      line-height: 2.5;
+      margin-top: 0.5em;
+      /* line-height: 2.25; */
 
-      a:visited {
-        color: #999;
+      a,
+      a:link {
         text-decoration-color: transparent;
+        color: #999;
       }
 
       a:hover {
-        text-decoration-color: var(--link-text-color);
+        /* text-decoration-color: var(--link-text-color); */
       }
     }
 
