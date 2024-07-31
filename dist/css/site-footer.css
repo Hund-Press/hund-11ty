@@ -1,0 +1,6 @@
+:host {
+  padding: 0 var(--space-s);
+  > span {
+    font-size: var(--step--1);
+  }
+}

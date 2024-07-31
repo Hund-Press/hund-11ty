@@ -1,0 +1,12 @@
+:root {
+  --body-background-color: white;
+  --body-text-color: black;
+
+  --header-background-color: white;
+  --header-text-color: black;
+
+  --link-text-color: inherit;
+  --link-text-decoration: underline;
+
+  --dog-color: white;
+}

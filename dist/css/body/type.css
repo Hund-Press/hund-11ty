@@ -1,0 +1,19 @@
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-weight-normal);
+  line-height: var(--body-line-height);
+}
+
+button,
+input,
+label {
+  line-height: var(--body-line-height);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

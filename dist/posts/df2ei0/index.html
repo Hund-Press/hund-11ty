@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dana Babatunde</title>
+
+    <style>.wkwsbcwcj{display:flex;flex-direction:row;justify-content:space-between;align-items:baseline;flex-wrap:wrap;> #site-name {
+    width: fit-content;
+    height: auto;
+
+    font-family: var(--brand-font-family);
+    font-size: var(--brand-font-size);
+    font-weight: var(--brand-font-weight);
+    line-height: var(--brand-line-height);
+
+    color: var(--header-text-color);
+    text-decoration-color: transparent;
+
+    a {
+      text-decoration-color: transparent;
+    }
+  }
+
+  > p {
+    margin: 0;
+  }
+
+  .site-logo {
+    padding: 0 var(--space-s);
+    svg {
+      display: block;
+      width: var(--space-l);
+      height: auto;
+      margin: 0 auto;
+    }
+  }}
+.wfwxohpvl{padding:0 var(--space-s);> span {
+    font-size: var(--step--1);
+  }}
+body {
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-weight-normal);
+  line-height: var(--body-line-height);
+}
+
+button,
+input,
+label {
+  line-height: var(--body-line-height);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-m);
+
+  header,
+  main,
+  footer {
+    width: var(--width-readable);
+    margin: 0 auto;
+  }
+
+  header {
+    flex: 0 0 auto;
+    margin-top: var(--space-xs);
+  }
+
+  main {
+    flex: 1 1 auto;
+  }
+  footer {
+    flex: 0 0 auto;
+    margin-bottom: var(--space-l);
+  }
+}
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+}
+
+a {
+  color: var(--link-text-color);
+}
+a:visited {
+  text-decoration-color: var(--link-visited-underline-color);
+}
+a:active,
+a:hover {
+  text-decoration-color: var(--link-hover-underline-color);
+}
+textarea:not([rows]) {
+  min-height: 10em;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+@media not (prefers-reduced-motion: reduce) {
+  @view-transition {
+    navigation: auto;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  from {
+    top: 1;
+  }
+  to {
+    top: 0;
+  }
+}
+:root {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* @link https://utopia.fyi/type/calculator?c=375,24,1.25,1800,46,1.25,6,4,&s=0.75,1.5,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--4: clamp(0.6144rem, 0.4662rem + 0.6324vi, 1.1776rem);
+  --step--3: clamp(0.768rem, 0.5827rem + 0.7905vi, 1.472rem);
+  --step--2: clamp(0.96rem, 0.7284rem + 0.9881vi, 1.84rem);
+  --step--1: clamp(1.2rem, 0.9105rem + 1.2351vi, 2.3rem);
+  --step-0: clamp(1.5rem, 1.1382rem + 1.5439vi, 2.875rem);
+  --step-1: clamp(1.875rem, 1.4227rem + 1.9298vi, 3.5938rem);
+  --step-2: clamp(2.3438rem, 1.7784rem + 2.4123vi, 4.4922rem);
+  --step-3: clamp(2.9297rem, 2.223rem + 3.0154vi, 5.6152rem);
+  --step-4: clamp(3.6621rem, 2.7787rem + 3.7692vi, 7.019rem);
+  --step-5: clamp(4.5776rem, 3.4734rem + 4.7115vi, 8.7738rem);
+  --step-6: clamp(5.722rem, 4.3417rem + 5.8894vi, 10.9673rem);
+}
+:root {
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  --brand-font-family: Rosario;
+  --brand-font-size: var(--step-3);
+  --brand-font-weight: var(--font-weight-bold);
+  --brand-line-height: 1.2;
+
+  --body-font-family: Rosario;
+  --body-font-size: var(--step-0);
+  --body-font-weight: var(--font-weight-normal);
+  --body-line-height: 1.5;
+
+  --heading-font-family: Rosario;
+  --heading-font-weight: var(--font-weight-semi-bold);
+  --heading-line-height: 1.5;
+}
+@font-face {
+  font-family: Rosario;
+  src: url("/fonts/Rosario-VariableFont_wght.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: Rosario;
+  font-style: italic;
+  src: url("/fonts/Rosario-Italic-VariableFont_wght.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/OpenSans-VariableFont_wdth,wght.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: 400;
+  src: url("/fonts/FiraSans-Regular.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: 500;
+  src: url("/fonts/FiraSans-Medium.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: 600;
+  src: url("/fonts/FiraSans-SemiBold.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: 700;
+  src: url("/fonts/FiraSans-Bold.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: 800;
+  src: url("/fonts/FiraSans-ExtraBold.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: FiraSans;
+  font-weight: 900;
+  src: url("/fonts/FiraSans-Black.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+/*
+@font-face {
+    src: url("/fonts/") format("woff2");
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+*/
+
+/*
+OpenSans-Italic-VariableFont_wdth,wght.ttf
+
+FiraSans-Thin.ttf
+FiraSans-ExtraLight.ttf
+FiraSans-Light.ttf
+
+
+FiraSans-ThinItalic.ttf
+FiraSans-ExtraLightItalic.ttf
+FiraSans-LightItalic.ttf
+FiraSans-Italic.ttf
+FiraSans-MediumItalic.ttf
+FiraSans-SemiBoldItalic.ttf
+FiraSans-BoldItalic.ttf
+FiraSans-ExtraBoldItalic.ttf
+FiraSans-BlackItalic.ttf
+*/
+/* @link https://utopia.fyi/space/calculator?c=320,24,1.2,1800,46,1.25,5,2,&s=0.75,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --space-xs: clamp(1.125rem, 0.8953rem + 1.1486vi, 2.1875rem);
+  --space-s: clamp(1.5rem, 1.2027rem + 1.4865vi, 2.875rem);
+  --space-m: clamp(2.25rem, 1.8041rem + 2.2297vi, 4.3125rem);
+  --space-l: clamp(3rem, 2.4054rem + 2.973vi, 5.75rem);
+  --space-xl: clamp(4.5rem, 3.6081rem + 4.4595vi, 8.625rem);
+  --space-2xl: clamp(6rem, 4.8108rem + 5.9459vi, 11.5rem);
+  --space-3xl: clamp(9rem, 7.2162rem + 8.9189vi, 17.25rem);
+
+  /* One-up pairs */
+  --space-xs-s: clamp(1.125rem, 0.7466rem + 1.8919vi, 2.875rem);
+  --space-s-m: clamp(1.5rem, 0.8919rem + 3.0405vi, 4.3125rem);
+  --space-m-l: clamp(2.25rem, 1.4932rem + 3.7838vi, 5.75rem);
+  --space-l-xl: clamp(3rem, 1.7838rem + 6.0811vi, 8.625rem);
+  --space-xl-2xl: clamp(4.5rem, 2.9865rem + 7.5676vi, 11.5rem);
+  --space-2xl-3xl: clamp(6rem, 3.5676rem + 12.1622vi, 17.25rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1.5rem, 0.5811rem + 4.5946vi, 5.75rem);
+}
+:root {
+  --width-full: 100%;
+  --width-readable: min(38ch, var(--width-full));
+  --gutter-primary: var(--space-2xs);
+}
+
+:root {
+  scrollbar-gutter: stable;
+}
+:root {
+  --body-background-color: white;
+  --body-text-color: black;
+
+  --header-background-color: white;
+  --header-text-color: black;
+
+  --link-text-color: inherit;
+  --link-text-decoration: underline;
+
+  --dog-color: white;
+}</style>
+
+    <meta name="author" content="Dana Babatunde">
+    <meta name="description" content="Writing here on my website when I feel like it.">
+
+    <meta name="view-transition" content="same-origin">
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    <!-- if (production) { -->
+    <!-- } else { -->
+
+    <!-- }  -->
+    <!-- /TODO  -->
+
+    <!-- <script webc:keep>
+            // TODO: if serviceWorker in navigator
+            navigator.serviceWorker.register("sw.js", {
+                scope: "./",
+            });
+        </script> -->
+  
+
+
+
+
+
+
+
+  
+
+<header site="[object Object]" class="wkwsbcwcj">
+  <div id="site-name"><a href="/">Dana Babatunde</a></div>
+  <nav id="site-nav">
+    <a href="/posts/"><span>Posts</span></a>
+  </nav>
+</header>
+
+  <main class="post-full">
+  <div>
+  Time is ticking, I'd better get writing.
+</div>
+
+</main>
+
+  
+
+<footer site="[object Object]" class="wfwxohpvl">
+  <span>© 2024</span>
+</footer>
+
+
+
+
+</head>
+
+  
+
+<body>
+</body>
+</html>

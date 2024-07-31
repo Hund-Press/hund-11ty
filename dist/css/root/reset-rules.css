@@ -1,0 +1,13 @@
+:root {
+  scrollbar-gutter: stable;
+
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

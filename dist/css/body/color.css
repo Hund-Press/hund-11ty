@@ -1,0 +1,15 @@
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+}
+
+a {
+  color: var(--link-text-color);
+}
+a:visited {
+  text-decoration-color: var(--link-visited-underline-color);
+}
+a:active,
+a:hover {
+  text-decoration-color: var(--link-hover-underline-color);
+}
