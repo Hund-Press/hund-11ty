@@ -1,3 +1,0 @@
-textarea:not([rows]) {
-  min-height: 10em;
-}
