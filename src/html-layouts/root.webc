@@ -13,15 +13,13 @@
     <meta name="view-transition" content="same-origin" />
 
     <link rel="stylesheet" href="../styles/root/resets.css" />
+    <link rel="stylesheet" href="../styles/root/font-faces.css" />
+    <link rel="stylesheet" href="../styles/root/utopia-type-scale.css" />
+    <link rel="stylesheet" href="../styles/root/utopia-space-scale.css" />
 
-    <link rel="stylesheet" href="../styles/root/type-scale.css" />
-    <link rel="stylesheet" href="../styles/root/type-vars.css" />
-    <link rel="stylesheet" href="../styles/root/type-faces.css" />
-
-    <link rel="stylesheet" href="../styles/root/space-scale.css" />
+    <link rel="stylesheet" href="../styles/root/type.css" />
     <link rel="stylesheet" href="../styles/root/space.css" />
-
-    <link rel="stylesheet" href="../styles/root/color-vars.css" />
+    <link rel="stylesheet" href="../styles/root/color.css" />
 
     <!--- --
     process.env.ELEVENTY_RUN_MODE

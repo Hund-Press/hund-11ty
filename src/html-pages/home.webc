@@ -6,3 +6,7 @@ permalink: /
 <posts-stack :collection="collections.posts" webc:nokeep></posts-stack>
 
 <author-profile></author-profile>
+
+<!--- --
+<value-inspector :val="abstract" @label="abstract"></value-inspector>
+--->

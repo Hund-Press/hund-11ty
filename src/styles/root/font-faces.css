@@ -11,6 +11,8 @@
   text-rendering: optimizeLegibility;
   font-display: swap;
 }
+
+/*
 @font-face {
   font-family: OpenSans;
   src: url("/fonts/OpenSans-VariableFont_wdth,wght.ttf") format("woff2");
@@ -59,6 +61,7 @@
   text-rendering: optimizeLegibility;
   font-display: swap;
 }
+*/
 
 /*
 @font-face {
@@ -66,23 +69,4 @@
     text-rendering: optimizeLegibility;
     font-display: swap;
 }
-*/
-
-/*
-OpenSans-Italic-VariableFont_wdth,wght.ttf
-
-FiraSans-Thin.ttf
-FiraSans-ExtraLight.ttf
-FiraSans-Light.ttf
-
-
-FiraSans-ThinItalic.ttf
-FiraSans-ExtraLightItalic.ttf
-FiraSans-LightItalic.ttf
-FiraSans-Italic.ttf
-FiraSans-MediumItalic.ttf
-FiraSans-SemiBoldItalic.ttf
-FiraSans-BoldItalic.ttf
-FiraSans-ExtraBoldItalic.ttf
-FiraSans-BlackItalic.ttf
 */

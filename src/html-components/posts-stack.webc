@@ -1,9 +1,14 @@
 <link rel="stylesheet"  href="../styles/posts-stack.css" />
 
+
 <div class="posts-stack">
   <slot name="heading"></slot>
 
-  <template webc:for="item of collection" webc:nokeep>
+  <template webc:for="item of collection.toReversed()" webc:nokeep>
+    <!--- --
+    <value-inspector :val="item.data" @label="item.data"></value-inspector>
+    <value-inspector :val="item" @label="item"></value-inspector>
+    --->
     <article
       webc:is="post-summary"
       :item="item"

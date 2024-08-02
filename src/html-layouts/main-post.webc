@@ -3,5 +3,8 @@ layout: body.webc
 ---
 
 <main class="post-full">
-  <template @raw="content" webc:nokeep ></template>
+  <h1 @raw="title"></h1>
+  <div @raw="abstract" class="abstract"></div>
+  <template @raw="content" webc:nokeep></template>
+  <datetime @raw="postDate(date)"></datetime>
 </main>

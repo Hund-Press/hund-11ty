@@ -10,7 +10,10 @@ module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/feeds"));
   config.addPlugin(require("./.eleventy.config/hund"));
 
-  if (process.env.ENVIRONMENT === "development") {
+  if (
+    process.env.ELEVENTY_RUN_MODE === "serve" ||
+    process.env.ELEVENTY_RUN_MODE === "watch"
+  ) {
     config.addPlugin(require("./.eleventy.config/local-dev"));
   }
 

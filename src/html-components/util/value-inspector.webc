@@ -1,4 +1,12 @@
 <section>
   <h2 @raw="label"></h2>
-  <pre @raw="inspectValue(obj)"></pre>
+  <pre @raw="inspectValue(val)"></pre>
 </section>
+<style webc:scoped>
+:host {
+  background: pink;
+  display:flex;
+  flex-direction: row;
+  font-size: .8rem
+}
+</style>
