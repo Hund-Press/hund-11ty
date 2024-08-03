@@ -3,10 +3,10 @@ layout: main-default.webc
 permalink: /
 ---
 
-<posts-stack :collection="collections.posts" webc:nokeep></posts-stack>
+<posts-stack :posts="collections.posts" webc:nokeep></posts-stack>
 
 <author-profile></author-profile>
 
 <!--- --
-<value-inspector :val="abstract" @label="abstract"></value-inspector>
+<value-inspector :val="collections.posts" @label="collections.posts"></value-inspector>
 --->

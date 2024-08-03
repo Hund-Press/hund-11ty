@@ -1,21 +1,35 @@
 <link rel="stylesheet"  href="../styles/posts-stack.css" />
 
-
 <div class="posts-stack">
+  <div @raw="section"></div>
   <slot name="heading"></slot>
+  <article webc:for="item of posts.toReversed()">
+    <h1 webc:if="item.data.title">
+      <a @raw="item.data.title" :href="item.page.url"></a>
+    </h1>
 
-  <template webc:for="item of collection.toReversed()" webc:nokeep>
-    <!--- --
-    <value-inspector :val="item.data" @label="item.data"></value-inspector>
-    <value-inspector :val="item" @label="item"></value-inspector>
-    --->
-    <article
-      webc:is="post-summary"
-      :item="item"
-      :date="item.page.date"
-      :url="item.page.url"
-      :title="item.data.title"
-      :abstract="item.data.abstract"
-    ></article>
-  </template>
+    <div webc:if="item.data.abstract" class="abstract" @raw="item.data.abstract"></div>
+    <div webc:else @raw="post" webc:nokeep></div>
+
+    <datetime><a @raw="formatPostDate(item.data.date)" :href="item.page.url"></a></datetime>
+  </article>
 </div>
+
+<!---
+<value-inspector :val="herbert" @label="postDate"></value-inspector>
+:herbert="item.data.date"
+:url="item.page.url"
+:title="item.data.title"
+:abstract="item.data.abstract"
+:item="item.content"
+--->
+<!--- --
+<ol>
+  <li webc:for="item of posts.toReversed()">
+    <span @raw="item.content"></span>
+  </li>
+</ol>
+<value-inspector :val="item" @label="item"></value-inspector>
+:post="item.content"
+<value-inspector :val="formatPostDate(item.date)" @label="formatPostDate(item.date)"></value-inspector>
+--->

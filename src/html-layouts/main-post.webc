@@ -2,9 +2,14 @@
 layout: body.webc
 ---
 
-<main class="post-full">
-  <h1 @raw="title"></h1>
-  <div @raw="abstract" class="abstract"></div>
-  <template @raw="content" webc:nokeep></template>
-  <datetime @raw="postDate(date)"></datetime>
+<main>
+  <template
+    webc:is="post-full"
+    class="post-full"
+    :title="title"
+    @:abstract="abstract"
+    :gremlin="date"
+  >
+    <div slot="post-content" @raw="content" />
+  </template>
 </main>
