@@ -7,9 +7,9 @@ layout: body.webc
     webc:is="post-full"
     class="post-full"
     :title="title"
-    @:abstract="abstract"
+    :abstract="abstract"
     :gremlin="date"
+    :poopy="content"
   >
-    <div slot="post-content" @raw="content" />
   </template>
 </main>

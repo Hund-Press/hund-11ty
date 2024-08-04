@@ -2,8 +2,8 @@
 
 <main webc:root="override">
   <h1 @raw="title"></h1>
-  <div @raw="abstract" class="abstract"></div>
-  <slot name="post-content"></slot>
+  <div @raw="abstract" class="post-abstract"></div>
+  <div @raw="poopy"></div>
   <datetime @raw="formatPostDate(gremlin)"></datetime>
 </main>
 
