@@ -1,5 +1,5 @@
 ---
-layout: root.webc
+layout: root-default.webc
 ---
 
 <link rel="stylesheet" href="../styles/body/type.css" />

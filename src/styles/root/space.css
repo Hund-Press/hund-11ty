@@ -1,7 +1,7 @@
 :root {
   --width-full: 100%;
-  --width-readable: min(38ch, var(--width-full));
-  --gutter-primary: var(--space-2xs);
+  --width-readable: min(var(--line-length-readable), var(--width-full));
+  --width-page-gutter: var(--space-2xs);
 }
 
 :root {

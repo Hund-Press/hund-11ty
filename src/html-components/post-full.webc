@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="../styles/post-full.css" />
+<link rel="stylesheet" href="../styles/post-full.css" webc:scoped/>
 
-<main webc:root="override">
-  <h1 @raw="title"></h1>
-  <div @raw="abstract" class="post-abstract"></div>
-  <div @raw="poopy"></div>
+<article webc:root="override" class="post-full">
+  <h1 webc:if="title" @raw="title"></h1>
+  <p webc:if="abstract" @raw="abstract" class="post-abstract"></p>
+  <template @raw="post" webc:nokeep></template>
   <datetime @raw="formatPostDate(gremlin)"></datetime>
-</main>
+</article>
 
 <!--- --
 --->

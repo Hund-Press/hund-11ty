@@ -5,6 +5,17 @@ body {
   line-height: var(--body-line-height);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+  text-wrap: pretty;
+}
+
 button,
 input,
 label {

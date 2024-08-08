@@ -1,7 +1,7 @@
 ---
-layout: body.webc
+layout: body-default.webc
 ---
 
 <main>
-  <template @raw="content" webc:nokeep ></template>
+  <template @raw="content" webc:nokeep></template>
 </main>

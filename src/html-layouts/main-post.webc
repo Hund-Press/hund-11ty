@@ -1,15 +1,14 @@
 ---
-layout: body.webc
+layout: body-default.webc
 ---
 
 <main>
-  <template
-    webc:is="post-full"
+  <post-full
+    webc:nokeep
     class="post-full"
     :title="title"
     :abstract="abstract"
     :gremlin="date"
-    :poopy="content"
-  >
-  </template>
+    :post="content"
+  ></post-full>
 </main>
