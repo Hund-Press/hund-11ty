@@ -9,19 +9,20 @@
   --font-weight-extra-bold: 800;
   --font-weight-black: 900;
 
-  --line-length-readable: 42ch;
+  --line-length-max: 42ch;
 
-  --body-font-family: Rosario;
-  --body-font-size: var(--step-0);
-  --body-font-weight: var(--font-weight-normal);
-  --body-line-height: 1.5;
+  --line-height-default: 1.5;
+  --line-height-heading: 1.3;
+  --line-height-brand-name: 1.2;
 
-  --heading-font-family: Rosario;
-  --heading-font-weight: var(--font-weight-semi-bold);
-  --heading-line-height: 1.3;
+  --type-family-default: Rosario;
+  --type-family-heading: Rosario;
+  --type-family-brand-name: Rosario;
 
-  --brand-font-family: Rosario;
-  --brand-font-size: var(--step-3);
-  --brand-font-weight: var(--font-weight-bold);
-  --brand-line-height: 1.2;
+  --type-size-default: var(--step-0);
+  --type-size-brand-name: var(--step-3);
+
+  --type-weight-default: var(--font-weight-normal);
+  --type-weight-heading: var(--font-weight-semi-bold);
+  --type-weight-brand-name: var(--font-weight-bold);
 }

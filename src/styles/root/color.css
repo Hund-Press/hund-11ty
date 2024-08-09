@@ -1,12 +1,19 @@
 :root {
-  --body-background-color: white;
-  --body-text-color: black;
+  --color-background-default: white;
+  --color-text-default: black;
 
-  --header-background-color: white;
-  --header-text-color: black;
+  --color-header-background: white;
+  --color-header-text: black;
 
-  --link-text-color: inherit;
-  --link-text-decoration: underline;
+  --color-link-text: gold;
+  --color-link-text-visited: var(--color-text-default);
+  --color-link-text-active: red;
+  --color-link-text-hover: red;
 
-  --dog-color: white;
+  --color-link-decoration: gold;
+  --color-link-decoration-visited: #999;
+  --color-link-decoration-active: red;
+  --color-link-decoration-hover: red;
+
+  --color-dog: white;
 }

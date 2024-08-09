@@ -2,7 +2,7 @@
 
 <article webc:root="override" class="post-full">
   <h1 webc:if="title" @raw="title"></h1>
-  <p webc:if="abstract" @raw="abstract" class="post-abstract"></p>
+  <p webc:if="summary" @raw="summary" class="post-summary"></p>
   <template @raw="post" webc:nokeep></template>
   <datetime @raw="formatPostDate(gremlin)"></datetime>
 </article>

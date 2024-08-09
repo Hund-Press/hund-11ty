@@ -7,7 +7,7 @@ layout: body-default.webc
     webc:nokeep
     class="post-full"
     :title="title"
-    :abstract="abstract"
+    :summary="summary"
     :gremlin="date"
     :post="content"
   ></post-full>

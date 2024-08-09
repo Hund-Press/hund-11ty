@@ -1,8 +1,9 @@
 body {
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size);
-  font-weight: var(--body-weight-normal);
-  line-height: var(--body-line-height);
+  font-family: var(--type-family-default);
+  font-size: var(--type-size-default);
+  font-weight: var(--type-weight-default);
+
+  line-height: var(--line-height-default);
 }
 
 h1,
@@ -14,17 +15,4 @@ h6,
 p,
 blockquote {
   text-wrap: pretty;
-}
-
-button,
-input,
-label {
-  line-height: var(--body-line-height);
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }

@@ -6,8 +6,8 @@ nav {
   gap: var(--space-s);
 
   font-size: var(--step--1);
-  font-weight: var(--font-weight-normal);
-  line-height: var(--body-line-height);
+  font-weight: var(--type-weight-default);
+  line-height: var(--line-height-default);
   line-height: 1.2;
 
   a {

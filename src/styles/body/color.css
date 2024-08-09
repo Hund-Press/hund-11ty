@@ -1,15 +1,31 @@
 body {
-  background-color: var(--body-background-color);
-  color: var(--body-text-color);
+  background-color: var(--color-background-default);
+  color: var(--color-text-default);
+}
+header {
+  /* background-color: #9c9; */
+}
+main {
+  /* background-color: #ccc; */
+}
+footer {
+  /* background-color: #99c; */
 }
 
-a {
-  color: var(--link-text-color);
+a,
+a:link {
+  color: var(--color-link-text);
+  text-decoration-color: var(--color-link-decoration);
 }
 a:visited {
-  text-decoration-color: var(--link-visited-underline-color);
+  color: var(--color-link-text-visited);
+  text-decoration-color: var(--color-link-decoration-visited);
 }
-a:active,
+a:active {
+  color: var(--color-link-text-active);
+  text-decoration-color: var(--color-link-decoration-active);
+}
 a:hover {
-  text-decoration-color: var(--link-hover-underline-color);
+  color: var(--color-link-text-hover);
+  text-decoration-color: var(--color-link-decoration-hover);
 }

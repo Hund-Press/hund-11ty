@@ -5,17 +5,20 @@
   justify-content: space-between;
   align-items: baseline;
   flex-wrap: wrap;
+  /* padding: 0 3rem; */
+  padding-inline-start: var(--space-xs);
+  padding-inline-end: var(--space-xs);
 
   > #site-name {
     width: fit-content;
     height: auto;
 
-    font-family: var(--brand-font-family);
-    font-size: var(--brand-font-size);
-    font-weight: var(--brand-font-weight);
-    line-height: var(--brand-line-height);
+    font-family: var(--type-family-brand-name);
+    font-size: var(--type-size-brand-name);
+    font-weight: var(--type-weight-brand-name);
+    line-height: var(--line-height-brand-name);
 
-    color: var(--header-text-color);
+    color: var(--color-brand-name-text);
     text-decoration-color: transparent;
 
     a {

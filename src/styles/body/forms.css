@@ -1,3 +1,16 @@
 textarea:not([rows]) {
   min-height: 10em;
 }
+
+button,
+input,
+label {
+  line-height: var(--line-height-default);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

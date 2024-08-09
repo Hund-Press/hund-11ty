@@ -12,11 +12,11 @@
     </h1>
 
     <p
-      webc:if="post.data.abstract"
-      @raw="post.data.abstract"
-      class="post-abstract"></p>
+      webc:if="post.data.summary"
+      @raw="post.data.summary"
+      class="post-summary"></p>
 
-    <template webc:else>CONTENT HERE</template>
+    <p webc:else>CONTENT HERE</p>
 
     <datetime><a @raw="formatPostDate(post.data.date)" :href="post.page.url"></a></datetime>
   </article>
