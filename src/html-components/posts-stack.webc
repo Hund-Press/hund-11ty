@@ -15,7 +15,6 @@
       webc:if="post.data.summary"
       @raw="post.data.summary"
       class="post-summary"></p>
-
     <p webc:else>CONTENT HERE</p>
 
     <datetime><a @raw="formatPostDate(post.data.date)" :href="post.page.url"></a></datetime>
@@ -23,6 +22,7 @@
 </div>
 
 <!---
+<template webc:else webc:nokeep @raw="post.content"></template>
 <template webc:else webc:nokeep @raw="post.content"></template>
 <div webc:else webc:nokeep @raw="post.content"></div>
 <div webc:else>CONTENT HERE</div>

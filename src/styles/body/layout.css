@@ -1,23 +1,21 @@
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
   display: grid;
   place-items: start center;
 
-  header,
-  main,
+  header {
+    width: var(--measure-readable-max);
+    margin-block-start: var(--measure-page-gutter);
+    margin-block-end: var(--space-m);
+  }
+
+  main {
+  }
+
   footer {
     width: var(--measure-readable-max);
-  }
-
-  header {
-    margin-block-start: var(--space-xs);
-    margin-block-end: var(--space-m);
-    /* --measure-page-gutter: var(--space-2xs); */
-  }
-
-  footer {
     margin-block-start: var(--space-l);
-    margin-block-end: var(--space-xs);
+    margin-block-end: var(--measure-page-gutter);
   }
 }

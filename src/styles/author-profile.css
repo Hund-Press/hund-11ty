@@ -1,16 +1,19 @@
 :host {
   width: var(--measure-readable-max);
-  margin: 0 auto var(--space-m);
+  margin-block: var(--space-m);
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-xs);
   background: #eee;
 
   display: flex;
 
   figure {
-    margin: var(--space-s);
+    /* padding: var(--space-s); */
+    /* margin-block: var(--space-s); */
 
     figcaption {
       font-size: var(--step--3);
-      a {
+      a:link {
         text-decoration: none;
       }
     }

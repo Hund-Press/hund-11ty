@@ -15,5 +15,9 @@
   --color-link-decoration-active: red;
   --color-link-decoration-hover: red;
 
+  --color-site-name: --color-text-default;
+  --color-site-name-decoration: transparent;
+  --color-site-name-decoration: transparent;
+
   --color-dog: white;
 }

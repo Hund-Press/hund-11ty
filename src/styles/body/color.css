@@ -12,7 +12,7 @@ footer {
   /* background-color: #99c; */
 }
 
-a,
+/* a, */
 a:link {
   color: var(--color-link-text);
   text-decoration-color: var(--color-link-decoration);
