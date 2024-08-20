@@ -1,4 +1,4 @@
-<link rel="stylesheet"  href="../styles/posts-stack.css" />
+<link rel="stylesheet" href="../styles/posts-stack.css" />
 
 <div class="posts-stack">
   <slot name="heading"></slot>
@@ -7,35 +7,54 @@
     <!---
     CONTENT not available because of title
     --->
+
     <h1 webc:if="post.data.title">
       <a @raw="post.data.title" :href="post.page.url"></a>
     </h1>
 
-    <p
+    <div
       webc:if="post.data.summary"
-      @raw="post.data.summary"
-      class="post-summary"></p>
-    <p webc:else>CONTENT HERE</p>
+      class="post-summary"
+      @raw="post.data.summary">
+    </div>
+    <p webc:else> CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT </p>
+    <!---
+    <div webc:else @raw="post.content" webc:nokeep></div>
+    <div webc:else @raw="post.content" webc:nokeep></div>
+    <div webc:else>
+    </div>
+    --->
 
-    <datetime><a @raw="formatPostDate(post.data.date)" :href="post.page.url"></a></datetime>
+    <datetime><a @raw="formatPostDate(post.page.date)" :href="post.page.url"></a></datetime>
   </article>
 </div>
 
 <!---
+<div webc:else @raw="post.content" webc:nokeep></div>
+<div webc:elseif="post.content" @raw="post.content" webc:nokeep></div>
+<div
+  webc:if="post.data.summary"
+  @raw="post.data.summary"
+  class="post-summary"></div>
+
+<template webc:else @raw="post.content" webc:nokeep></template>
+<p webc:else> CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT </p>
+<p webc:else>
+  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
+  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
+  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
+  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
+  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
+</p>
 <template webc:else webc:nokeep @raw="post.content"></template>
-<template webc:else webc:nokeep @raw="post.content"></template>
-<div webc:else webc:nokeep @raw="post.content"></div>
-<div webc:else>CONTENT HERE</div>
 --->
 
 
 <!---
-
 <ol>
   <li webc:for="item of posts.toReversed()">
     <span @raw="item.content"></span>
   </li>
 </ol>
 <value-inspector :val="post" @label="post"></value-inspector>
-
 --->

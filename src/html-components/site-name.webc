@@ -1,0 +1,7 @@
+<!--- --
+<link rel="stylesheet" webc:scoped  href="../styles/site-name.css" />
+--->
+
+<div id="site-name">
+  <a @raw="name" href="/"></a>
+</div>

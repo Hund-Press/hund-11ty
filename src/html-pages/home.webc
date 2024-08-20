@@ -1,5 +1,5 @@
 ---
-layout: main-default.webc
+layout: main.webc
 permalink: /
 ---
 
@@ -8,5 +8,6 @@ permalink: /
 <author-profile></author-profile>
 
 <!--- --
+<value-inspector :val="collections.posts" @label="collections.posts"></value-inspector>
 <value-inspector :val="collections.posts" @label="collections.posts"></value-inspector>
 --->

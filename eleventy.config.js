@@ -8,7 +8,7 @@ module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/dates"));
   config.addPlugin(require("./.eleventy.config/passthrough"));
   config.addPlugin(require("./.eleventy.config/feeds"));
-  config.addPlugin(require("./.eleventy.config/hund"));
+  config.addPlugin(require("./.eleventy.config/🐕"));
 
   if (
     process.env.ELEVENTY_RUN_MODE === "serve" ||

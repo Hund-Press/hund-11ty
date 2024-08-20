@@ -1,6 +1,7 @@
 ---
-layout: body-default.webc
+layout: body.webc
 ---
+
 
 <main>
   <post-full
@@ -8,7 +9,7 @@ layout: body-default.webc
     class="post-full"
     :title="title"
     :summary="summary"
-    :gremlin="date"
+    :date="date"
     :post="content"
   ></post-full>
 </main>

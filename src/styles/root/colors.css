@@ -1,0 +1,23 @@
+:root {
+  --color-primary: red;
+
+  --color-text: black;
+  --color-text-dimmed: #666;
+  --color-background: white;
+
+  --color-header-background: var(--color-background);
+  --color-header-text: var(--color-text);
+
+  --color-link: gold;
+  --color-link-visited: var(--color-text);
+  --color-link-active: red;
+  --color-link-hover: red;
+
+  --color-site-name: var(--color-text);
+  --color-site-name-hover: var(--color-link-hover);
+
+  --color-datetime: #999;
+  --color-datetime-decoration: transparent;
+
+  --color-dog: #ca6c17;
+}

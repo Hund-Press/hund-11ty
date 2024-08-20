@@ -1,23 +1,12 @@
 :host {
   width: var(--measure-readable-max);
+  padding-block: var(--measure-page-gutter);
+  padding-inline: var(--measure-page-gutter);
+
   margin-block: var(--space-m);
-  padding-block: var(--space-xs);
-  padding-inline: var(--space-xs);
   background: #eee;
 
   display: flex;
-
-  figure {
-    /* padding: var(--space-s); */
-    /* margin-block: var(--space-s); */
-
-    figcaption {
-      font-size: var(--step--3);
-      a:link {
-        text-decoration: none;
-      }
-    }
-  }
 
   .author-bio {
     font-size: var(--step--2);

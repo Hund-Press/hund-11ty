@@ -5,7 +5,7 @@ textarea:not([rows]) {
 button,
 input,
 label {
-  line-height: var(--line-height-default);
+  line-height: var(--type-line-height);
 }
 
 input,

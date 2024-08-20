@@ -5,7 +5,7 @@
 module.exports = function (config) {
   config.addCollection("drafts", function (collectionApi) {
     const drafts = collectionApi.getFilteredByGlob(
-      "./src/HUND/html-pages/write/drafts/*.*",
+      "./src/🐕/html-pages/write/drafts/*.*",
     );
     return drafts;
   });

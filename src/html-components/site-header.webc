@@ -1,8 +1,10 @@
 <link rel="stylesheet" webc:scoped href="../styles/site-header.css" />
 
 <header webc:root="override">
-  <div id="site-name"><a @raw="site.name" href="/"></a></div>
-  <nav id="site-nav">
-    <a :href="item.url" webc:for="item of site.nav"><span @text="item.label"></span></a>
-  </nav>
+  <site-name :name="site.name" webc:nokeep></site-name>
+  <site-nav :items="site.nav" webc:nokeep></site-nav>
 </header>
+
+<!--- --
+<a :href="item.url" webc:for="item of site.nav"><span @text="item.label"></span></a>
+--->

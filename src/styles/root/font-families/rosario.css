@@ -1,0 +1,13 @@
+@font-face {
+  font-family: rosario;
+  src: url("/fonts/Rosario-VariableFont_wght.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+@font-face {
+  font-family: rosario;
+  font-style: italic;
+  src: url("/fonts/Rosario-Italic-VariableFont_wght.ttf") format("woff2");
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}

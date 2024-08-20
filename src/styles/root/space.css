@@ -1,9 +1,0 @@
-:root {
-  --measure-full-page: 100%;
-  --measure-page-gutter: var(--space-xs);
-  --measure-readable-max: min(var(--line-length-max), var(--measure-full-page));
-}
-
-:root {
-  scrollbar-gutter: stable;
-}

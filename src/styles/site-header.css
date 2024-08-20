@@ -4,51 +4,58 @@
   padding-inline-end: var(--space-xs);
 
   display: flex;
+  gap: var(--measure-page-gutter);
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+
   align-items: baseline;
 
   > #site-name {
-    width: fit-content;
-    height: auto;
+    flex: 1 1 auto;
+    margin-inline-end: var(--measure-page-gutter);
+  }
 
-    font-family: var(--type-site-name-family);
-    font-size: var(--type-site-name-size);
-    font-weight: var(--type-site-name-weight);
-    line-height: var(--line-site-name-height);
+  > nav {
+    flex-grow: 0;
+    flex: 0 1 auto;
+  }
 
-    color: var(--color-site-name-text);
+  nav {
+    display: flex;
+    gap: var(--space-s);
+    flex-wrap: wrap;
 
-    /* a,
-    a:link {
-      color: var(--color-link-text);
-      text-decoration-color: var(--color-link-decoration);
+    font-size: var(--step--1);
+    font-weight: var(--type-weight);
+    line-height: var(--type-line-height);
+    /* line-height: 1.2; */
+
+    a {
+      display: block;
+      width: 100%;
+      height: auto;
     }
-    a:visited {
-      color: var(--color-link-text-visited);
-      text-decoration-color: var(--color-link-decoration-visited);
-    } */
+  }
 
-    /* a, */
+  > #site-name {
+    color: var(--color-site-name);
+
+    font-family: var(--type-family-site-name);
+    font-size: var(--type-size-site-name);
+    font-weight: var(--type-weight-site-name);
+    line-height: var(--type-line-height-site-name);
+
     a:link {
       color: var(--color-site-name);
-      text-decoration-color: var(--color-site-name-decoration);
+      text-decoration-color: transparent;
     }
-    /* a:hover {
-      color: var(--color-link-text-hover);
-      text-decoration-color: var(--color-link-decoration-hover);
-    } */
-    /* a:active {
-      color: var(--color-link-text-hover);
-      text-decoration-color: var(--color-link-decoration-active);
-    } */
+    a:hover {
+      color: var(--color-site-name);
+      text-decoration-color: var(--color-site-name-hover);
+    }
   }
 
-  > p {
-    margin: 0;
-  }
-
-  .site-logo {
+  /* .site-logo {
     padding: 0 var(--space-s);
     svg {
       display: block;
@@ -56,5 +63,5 @@
       height: auto;
       margin: 0 auto;
     }
-  }
+  } */
 }

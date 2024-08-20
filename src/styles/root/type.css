@@ -1,28 +1,17 @@
 :root {
-  --font-weight-thin: 100;
-  --font-weight-extra-light: 200;
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-semi-bold: 600;
-  --font-weight-bold: 700;
-  --font-weight-extra-bold: 800;
-  --font-weight-black: 900;
+  --type-family: rosario;
+  --type-size: var(--step-0);
+  --type-weight: var(--font-weight-normal);
+  --type-line-height: 1.5;
 
-  --line-length-max: 46ch;
-
-  --line-height-default: 1.5;
-  --line-height-heading: 1.3;
-  --line-height-brand-name: 1.2;
-
-  --type-family-default: Rosario;
-  --type-family-heading: Rosario;
-  --type-family-brand-name: Rosario;
-
-  --type-size-default: var(--step-0);
-  --type-size-brand-name: var(--step-3);
-
-  --type-weight-default: var(--font-weight-normal);
+  --type-family-heading: var(--type-family);
   --type-weight-heading: var(--font-weight-semi-bold);
-  --type-weight-brand-name: var(--font-weight-bold);
+  --type-line-height-heading: 1.3;
+
+  --type-family-site-name: var(--type-family);
+  --type-size-site-name: var(--step-2);
+  --type-weight-site-name: var(--font-weight-bold);
+  --type-line-height-site-name: 1.2;
+
+  --type-size-datetime: var(--step--2);
 }

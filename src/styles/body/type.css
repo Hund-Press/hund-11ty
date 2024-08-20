@@ -1,9 +1,9 @@
 body {
-  font-family: var(--type-family-default);
-  font-size: var(--type-size-default);
-  font-weight: var(--type-weight-default);
+  font-family: var(--type-family);
+  font-size: var(--type-size);
+  font-weight: var(--type-weight);
 
-  line-height: var(--line-height-default);
+  line-height: var(--type-line-height);
 }
 
 h1,
@@ -11,7 +11,13 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  font-family: var(--type-family-heading);
+  font-weight: var(--type-weight-heading);
+  line-height: var(--type-line-height-heading);
+  text-wrap: pretty;
+}
+
 p,
 blockquote {
   text-wrap: pretty;

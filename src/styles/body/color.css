@@ -1,6 +1,6 @@
 body {
-  background-color: var(--color-background-default);
-  color: var(--color-text-default);
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 header {
   /* background-color: #9c9; */
@@ -14,18 +14,18 @@ footer {
 
 /* a, */
 a:link {
-  color: var(--color-link-text);
-  text-decoration-color: var(--color-link-decoration);
+  color: var(--color-link);
+  text-decoration-color: var(--color-link);
 }
 a:visited {
-  color: var(--color-link-text-visited);
-  text-decoration-color: var(--color-link-decoration-visited);
+  color: var(--color-link-visited);
+  text-decoration-color: var(--color-link-visited);
 }
 a:active {
-  color: var(--color-link-text-active);
-  text-decoration-color: var(--color-link-decoration-active);
+  color: var(--color-link-active);
+  text-decoration-color: var(--color-link-active);
 }
 a:hover {
-  color: var(--color-link-text-hover);
-  text-decoration-color: var(--color-link-decoration-hover);
+  color: var(--color-link-hover);
+  text-decoration-color: var(--color-link-hover);
 }

@@ -4,3 +4,15 @@ picture {
   display: block;
   height: auto;
 }
+
+figure {
+  img {
+  }
+
+  figcaption {
+    font-size: var(--step--3);
+    a:link {
+      text-decoration: none;
+    }
+  }
+}

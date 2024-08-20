@@ -1,10 +1,9 @@
 ---
-layout: main-default.webc
+layout: main.webc
 permalink: /posts/index.html
 ---
+<!-- only publishes if you include index.html in permalink.
+
+works without index.html in /about/me/ but not /about/. -->
 
 <posts-stack :posts="collections.posts" webc:nokeep></posts-stack>
-
-<!--- --
-<posts-stack :posts="collections.posts" webc:nokeep></posts-stack>
---->

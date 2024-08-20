@@ -9,8 +9,6 @@
 
   > h1 {
     font-size: var(--step-1);
-    font-weight: var(--type-weight-heading);
-    line-height: var(--line-height-heading);
   }
 
   > datetime {
