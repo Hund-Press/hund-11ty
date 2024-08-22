@@ -3,6 +3,7 @@ layout: main.webc
 permalink: /
 ---
 
+<posts-pins :posts="collections.posts_pins" webc:nokeep></posts-pins>
 <posts-stack :posts="collections.posts" webc:nokeep></posts-stack>
 
 <author-profile></author-profile>

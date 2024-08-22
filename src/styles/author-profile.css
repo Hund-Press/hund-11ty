@@ -1,9 +1,10 @@
 :host {
   width: var(--measure-readable-max);
+
   padding-block: var(--measure-page-gutter);
   padding-inline: var(--measure-page-gutter);
-
   margin-block: var(--space-m);
+
   background: #eee;
 
   display: flex;
