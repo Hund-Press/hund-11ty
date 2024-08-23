@@ -17,11 +17,9 @@
       @raw="post.data.summary"
     ></div>
     <p webc:else>
-      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
-      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
-      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
-      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
-      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+      I wish the actual words from this post were right here now. I can't seem
+      to get it to work correctly. Once I've sorted that out, this annoying
+      message will go away. For now, click on the date.
     </p>
     <!---
     <div webc:else @raw="post.content" webc:nokeep></div>
