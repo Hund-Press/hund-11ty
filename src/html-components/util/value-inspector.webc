@@ -4,10 +4,10 @@
 </section>
 
 <style webc:scoped>
-:host {
-  background: pink;
-  display:flex;
-  flex-direction: row;
-  font-size: .8rem
-}
+  :host {
+    background: pink;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+  }
 </style>

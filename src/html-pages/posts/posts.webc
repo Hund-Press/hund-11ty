@@ -2,6 +2,7 @@
 layout: main.webc
 permalink: /posts/index.html
 ---
+
 <!-- only publishes if you include index.html in permalink.
 
 works without index.html in /about/me/ but not /about/. -->

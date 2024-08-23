@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../styles/post-full.css" webc:scoped/>
+<link rel="stylesheet" href="../styles/post-full.css" webc:scoped />
 
 <article webc:root="override" class="post-full">
   <h1 webc:if="title" @raw="title"></h1>

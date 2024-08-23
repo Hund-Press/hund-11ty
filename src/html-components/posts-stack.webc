@@ -3,7 +3,6 @@
 <div class="posts-stack">
   <slot name="heading"></slot>
   <article webc:for="post of posts.toReversed()">
-
     <!---
     CONTENT not available because of title
     --->
@@ -15,9 +14,15 @@
     <div
       webc:if="post.data.summary"
       class="post-summary"
-      @raw="post.data.summary">
-    </div>
-    <p webc:else> CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT </p>
+      @raw="post.data.summary"
+    ></div>
+    <p webc:else>
+      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+      CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT CONTENT
+    </p>
     <!---
     <div webc:else @raw="post.content" webc:nokeep></div>
     <div webc:else @raw="post.content" webc:nokeep></div>
@@ -25,7 +30,9 @@
     </div>
     --->
 
-    <datetime><a @raw="formatPostDate(post.page.date)" :href="post.page.url"></a></datetime>
+    <datetime
+      ><a @raw="formatPostDate(post.page.date)" :href="post.page.url"></a
+    ></datetime>
   </article>
 </div>
 
@@ -48,7 +55,6 @@
 </p>
 <template webc:else webc:nokeep @raw="post.content"></template>
 --->
-
 
 <!---
 <ol>

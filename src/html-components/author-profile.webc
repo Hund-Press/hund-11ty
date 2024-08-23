@@ -10,10 +10,11 @@
   </figure>
   <div class="author-bio">
     <p>
-     Hello, I am proud to be a fake author created purely for the sake of taking up
-     illustrative space on this fake website. You will want to replace my name and bio
-     with information about yourself. Your name is configured in /src/data/site.js, and
-     this bio is in /src/components/author-profile.webc. Best of luck to you!
+      Hello, I am proud to be a fake author created purely for the sake of
+      taking up illustrative space on this fake website. You will want to
+      replace my name and bio with information about yourself. Your name is
+      configured in /src/data/site.js, and this bio is in
+      /src/components/author-profile.webc. Best of luck to you!
     </p>
     <div><a href="/about/">Read more</a></div>
   </div>

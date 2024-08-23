@@ -3,6 +3,4 @@ layout: main.webc
 permalink: /about/
 ---
 
-<p>
-  Hello, I made this.
-</p>
+<p>Hello, I made this.</p>

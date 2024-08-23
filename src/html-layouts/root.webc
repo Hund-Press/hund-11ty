@@ -18,16 +18,40 @@
     <link rel="stylesheet" href="../styles/root/root.css" webc:bucket="root" />
     --->
 
-    <link rel="stylesheet" href="../styles/root/resets.css" webc:bucket="root" />
+    <link
+      rel="stylesheet"
+      href="../styles/root/resets.css"
+      webc:bucket="root"
+    />
 
-    <link rel="stylesheet" href="../styles/root/font-families/rosario.css" webc:bucket="root"  />
+    <link
+      rel="stylesheet"
+      href="../styles/root/font-families/rosario.css"
+      webc:bucket="root"
+    />
 
-    <link rel="stylesheet" href="../styles/root/utopia-type-scale.css" webc:bucket="root"  />
-    <link rel="stylesheet" href="../styles/root/utopia-space-scale.css" webc:bucket="root"  />
+    <link
+      rel="stylesheet"
+      href="../styles/root/utopia-type-scale.css"
+      webc:bucket="root"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/root/utopia-space-scale.css"
+      webc:bucket="root"
+    />
 
-    <link rel="stylesheet" href="../styles/root/type.css" webc:bucket="root"  />
-    <link rel="stylesheet" href="../styles/root/measures.css" webc:bucket="root"  />
-    <link rel="stylesheet" href="../styles/root/colors.css" webc:bucket="root"  />
+    <link rel="stylesheet" href="../styles/root/type.css" webc:bucket="root" />
+    <link
+      rel="stylesheet"
+      href="../styles/root/measures.css"
+      webc:bucket="root"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/root/colors.css"
+      webc:bucket="root"
+    />
 
     <!--- --
     process.env.ELEVENTY_RUN_MODE
@@ -69,5 +93,4 @@
   </head>
 
   <body @raw="content" webc:nokeep></body>
-
 </html>

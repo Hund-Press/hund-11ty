@@ -3,11 +3,15 @@ layout: root.webc
 ---
 
 <link rel="stylesheet" href="../styles/body/type.css" webc:bucket="body" />
-<link rel="stylesheet" href="../styles/body/layout.css" webc:bucket="body"/>
-<link rel="stylesheet" href="../styles/body/color.css" webc:bucket="body"/>
-<link rel="stylesheet" href="../styles/body/forms.css" webc:bucket="body"/>
-<link rel="stylesheet" href="../styles/body/media.css" webc:bucket="body"/>
-<link rel="stylesheet" href="../styles/body/transitions.css" webc:bucket="body" />
+<link rel="stylesheet" href="../styles/body/layout.css" webc:bucket="body" />
+<link rel="stylesheet" href="../styles/body/color.css" webc:bucket="body" />
+<link rel="stylesheet" href="../styles/body/forms.css" webc:bucket="body" />
+<link rel="stylesheet" href="../styles/body/media.css" webc:bucket="body" />
+<link
+  rel="stylesheet"
+  href="../styles/body/transitions.css"
+  webc:bucket="body"
+/>
 
 <body>
   <site-header :site="site"></site-header>
