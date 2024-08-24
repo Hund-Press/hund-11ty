@@ -16,22 +16,16 @@
       class="post-summary"
       @raw="post.data.summary"
     ></div>
-    <p webc:else>
-      I wish the actual words from this post were right here now. I can't seem
-      to get it to work correctly. Once I've sorted that out, this annoying
-      message will go away. For now, click on the date.
-    </p>
 
-    <!---
-    <div webc:else @raw="post.content" webc:nokeep></div>
-    <div webc:else @raw="post.content" webc:nokeep></div>
-
-    <p webc:else>
-      I wish the actual words from this post were right here now. I can't seem
-      to get it to work correctly. Once I've sorted that out, this annoying
-      message will go away. For now, click on the date.
-    </p>
+    <!--- 
+    <div webc:else @raw="post.content" webc:nokeep></div> 
     --->
+
+    <p webc:else>
+      Post content should be here. I'll figure it out. More words: That his west
+      Middleton in objection discovery as agreeable. Edward thrown dining so he
+      my around to.
+    </p>
 
     <datetime
       ><a @raw="formatPostDate(post.page.date)" :href="post.page.url"></a
@@ -40,30 +34,5 @@
 </div>
 
 <!---
-<div webc:else @raw="post.content" webc:nokeep></div>
-<div webc:elseif="post.content" @raw="post.content" webc:nokeep></div>
-<div
-  webc:if="post.data.summary"
-  @raw="post.data.summary"
-  class="post-summary"></div>
-
-<template webc:else @raw="post.content" webc:nokeep></template>
-<p webc:else> CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT </p>
-<p webc:else>
-  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
-  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
-  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
-  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
-  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT  CONTENT
-</p>
-<template webc:else webc:nokeep @raw="post.content"></template>
---->
-
-<!---
-<ol>
-  <li webc:for="item of posts.toReversed()">
-    <span @raw="item.content"></span>
-  </li>
-</ol>
 <value-inspector :val="post" @label="post"></value-inspector>
 --->
