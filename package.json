@@ -9,6 +9,8 @@
     "hash-generator": "^0.1.0",
     "markdown-it": "^14.1.0",
     "markdown-it-eleventy-img": "^0.10.1",
+    "postcss": "^8.4.45",
+    "postcss-import": "^16.1.0",
     "utopia-core": "^1.5.0"
   },
   "devDependencies": {

@@ -2,11 +2,18 @@
   --color-primary: red;
 
   --color-text: black;
-  --color-text-dimmed: #666;
-  --color-background: white;
+  --color-background: #cfc;
 
-  --color-header-background: var(--color-background);
-  --color-header-text: var(--color-text);
+  --color-text-dimmed: #666;
+
+  --header-color-text: inherit;
+  --header-color-background: transparent;
+
+  --main-color-text: inherit;
+  --main-color-background: transparent;
+
+  --footer-color-text: inherit;
+  --footer-color-background: #eef;
 
   --color-link: gold;
   --color-link-visited: var(--color-text);

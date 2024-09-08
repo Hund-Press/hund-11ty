@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../styles/posts-stack.css" />
 
-<div class="posts-stack">
+<section class="posts-stack">
   <slot name="heading"></slot>
   <article webc:for="post of posts.toReversed()">
     <!---
@@ -31,8 +31,4 @@
       ><a @raw="formatPostDate(post.page.date)" :href="post.page.url"></a
     ></datetime>
   </article>
-</div>
-
-<!---
-<value-inspector :val="post" @label="post"></value-inspector>
---->
+</section>

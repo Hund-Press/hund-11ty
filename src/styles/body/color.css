@@ -2,18 +2,25 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
 }
-header {
-  /* background-color: #9c9; */
+body {
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
 }
-main {
-  /* background-color: #ccc; */
+/* body > header {
+  background-color: var(--header-color-background);
+  color: var(--header-color-text);
 }
-footer {
-  /* background-color: #99c; */
+body > main {
+  background-color: var(--main-color-background);
+  color: var(--main-color-text);
 }
+body > footer {
+  background-color: var(--footer-color-background);
+  color: var(--footer-color-text);
+} */
 
-/* a, */
-a:link {
+/* a:link {
   color: var(--color-link);
   text-decoration-color: var(--color-link);
 }
@@ -28,4 +35,4 @@ a:active {
 a:hover {
   color: var(--color-link-hover);
   text-decoration-color: var(--color-link-hover);
-}
+} */

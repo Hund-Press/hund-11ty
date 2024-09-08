@@ -1,34 +1,33 @@
 .posts-stack {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: var(--space-l);
-  align-items: center;
+  place-items: center;
 
   > article {
-    width: var(--measure-readable-max);
-    padding-inline: var(--space-xs);
+    width: var(--measure-reading-width);
+    padding-inline: var(--measure-gutter);
 
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 
-    /* > h1 {
+    > h1 {
       font-size: var(--step-0);
-    } */
+    }
 
     > datetime {
       display: block;
       font-size: var(--type-size-datetime);
 
       a:link {
-        color: var(--color-datetime);
-        text-decoration-color: var(--color-datetime-decoration);
+        /* color: var(--color-datetime); */
+        /* text-decoration-color: var(--color-datetime-decoration); */
       }
     }
 
     blockquote {
       font-style: italic;
-      margin-block-start: var(--space-s);
+      margin-inline-start: var(--measure-gutter);
     }
   }
 }

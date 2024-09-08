@@ -1,12 +1,11 @@
 :root {
-  --measure-text-line-length: 42ch;
+  --measure-readable-line-length: 42ch;
+  --measure-full-width: 100vw;
 
-  --measure-full-width: 100%;
-
-  --measure-readable-max: min(
-    var(--measure-text-line-length),
+  --measure-reading-width: min(
+    var(--measure-readable-line-length),
     var(--measure-full-width)
   );
 
-  --measure-page-gutter: var(--space-xs);
+  --measure-gutter: var(--space-xs);
 }

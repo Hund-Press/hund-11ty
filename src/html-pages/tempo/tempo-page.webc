@@ -1,0 +1,14 @@
+---
+layout: tempo-layout.webc
+permalink: /tempo/index.html
+---
+
+<style>
+  body {
+    background: pink;
+  }
+</style>
+
+<p>Hello. I am temp page.</p>
+
+@import "../styles/tempo.css";

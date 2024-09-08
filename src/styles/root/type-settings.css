@@ -1,0 +1,17 @@
+:root {
+  --type-family: rosario;
+  --type-size: var(--step-0);
+  --type-weight: var(--font-weight-normal);
+  --type-line-height: 1.5;
+
+  --heading-type-family-heading: var(--type-family);
+  --heading-type-weight-heading: var(--font-weight-semi-bold);
+  --heading-type-line-height-heading: 1.3;
+
+  --site-name-type-family: var(--type-family);
+  --site-name-type-size: var(--step-2);
+  --site-name-type-weight: var(--font-weight-bold);
+  --site-name-type-line-height: 1.2;
+
+  --date-time-type-size: var(--step--2);
+}

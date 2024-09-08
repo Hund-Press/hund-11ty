@@ -7,15 +7,10 @@ module.exports = (config) => {
   config.addPlugin(require("./.eleventy.config/markdown"));
   config.addPlugin(require("./.eleventy.config/dates"));
   config.addPlugin(require("./.eleventy.config/passthrough"));
+  // config.addPlugin(require("./.eleventy.config/css"));
   config.addPlugin(require("./.eleventy.config/feeds"));
+  config.addPlugin(require("./.eleventy.config/local-dev"));
   config.addPlugin(require("./.eleventy.config/🐕"));
-
-  if (
-    process.env.ELEVENTY_RUN_MODE === "serve" ||
-    process.env.ELEVENTY_RUN_MODE === "watch"
-  ) {
-    config.addPlugin(require("./.eleventy.config/local-dev"));
-  }
 
   return {
     dir: {
