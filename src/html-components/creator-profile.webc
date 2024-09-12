@@ -1,20 +1,20 @@
-<link rel="stylesheet" webc:scoped href="../styles/author-profile.css" />
+<link rel="stylesheet" webc:scoped href="../styles/creator-profile.css" />
 
-<div webc:root="override" class="author-profile">
-  <figure class="author-photo">
+<div webc:root="override" class="creator-profile">
+  <figure class="creator-photo">
     <media-image file="author.jpg" alt="bowling"></media-image>
     <figcaption>
       &copy; Vyacheslav Argenberg /
       <a href="http://www.vascoplanet.com/">http://www.vascoplanet.com/</a>
     </figcaption>
   </figure>
-  <div class="author-bio">
+  <div class="creator-bio">
     <p>
-      Hello, I am proud to be a fake author created purely for the sake of
+      Hello, I am proud to be a fake creator created purely for the sake of
       taking up illustrative space on this fake website. You will want to
       replace my name and bio with information about yourself. Your name is
       configured in /src/data/site.js, and this bio is in
-      /src/components/author-profile.webc. Best of luck to you!
+      /src/components/creator-profile.webc. Best of luck to you!
     </p>
     <div><a href="/about/">Read more</a></div>
   </div>

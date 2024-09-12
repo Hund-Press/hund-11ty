@@ -1,8 +1,10 @@
 /* body > header { */
 :host {
+  padding-block: var(--measure-gutter) var(--space-m);
   padding-inline: var(--measure-gutter);
-  padding-block-start: var(--measure-gutter);
-  margin-block-end: var(--space-m);
+
+  /* padding-block-start: var(--measure-gutter);
+  margin-block-end: var(--space-m); */
 
   /* color: var(--color-text-header); */
   /* background-color: var(--color-background-header); */

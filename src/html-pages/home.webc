@@ -6,7 +6,7 @@ permalink: /
 <posts-pins :posts="collections.posts_pins" webc:nokeep></posts-pins>
 <posts-stack :posts="collections.posts" webc:nokeep></posts-stack>
 
-<author-profile></author-profile>
+<creator-profile></creator-profile>
 
 <!--- --
 <value-inspector :val="collections.posts" @label="collections.posts"></value-inspector>

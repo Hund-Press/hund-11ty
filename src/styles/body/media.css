@@ -5,14 +5,12 @@ picture {
   height: auto;
 }
 
-figure {
-  img {
-  }
+figure > img {
+}
 
-  figcaption {
-    font-size: var(--step--3);
-    a:link {
-      text-decoration: none;
-    }
+figure > figcaption {
+  font-size: var(--step--3);
+  a:link {
+    text-decoration: none;
   }
 }
