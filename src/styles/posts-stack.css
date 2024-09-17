@@ -21,10 +21,10 @@
   display: block;
   font-size: var(--type-datetime-size);
 
-  /* a:link {
+  a:link {
     color: var(--color-datetime);
     text-decoration-color: var(--color-datetime-decoration);
-  } */
+  }
 }
 
 .posts-stack > article > blockquote {
