@@ -3,6 +3,7 @@
 
   --color-text: black;
   --color-background: #cfc;
+  --color-background: #fffaee;
 
   --color-text-dimmed: #666;
 
@@ -15,10 +16,10 @@
   --footer-color-text: inherit;
   --footer-color-background: #eef;
 
-  --color-link: gold;
+  --color-link: red;
   --color-link-visited: var(--color-text);
-  --color-link-active: red;
-  --color-link-hover: red;
+  --color-link-active: gold;
+  --color-link-hover: gold;
 
   --color-site-name: var(--color-text);
   --color-site-name-hover: var(--color-link-hover);

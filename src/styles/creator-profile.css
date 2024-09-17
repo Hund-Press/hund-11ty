@@ -1,5 +1,5 @@
 :host {
-  width: var(--measure-width-content);
+  width: 100%;
 
   padding-block: var(--measure-gap-viewport);
   margin-block: var(--space-m);

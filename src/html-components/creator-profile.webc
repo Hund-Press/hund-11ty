@@ -16,6 +16,6 @@
       configured in /src/data/site.js, and this bio is in
       /src/components/creator-profile.webc. Best of luck to you!
     </p>
-    <div><a href="/about/">Read more</a></div>
+    <div><a href="/about/me/">Read more</a></div>
   </div>
 </div>
