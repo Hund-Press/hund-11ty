@@ -1,11 +1,12 @@
 :host {
-  width: var(--measure-reading-width);
+  width: var(--measure-width-content);
 
-  padding-block: var(--measure-gutter);
-  padding-inline: var(--measure-gutter);
+  padding-block: var(--measure-gap-viewport);
   margin-block: var(--space-m);
 
-  /* background: #eee; */
+  padding-inline: var(--measure-gap-viewport);
+
+  background: #eee;
 
   display: flex;
 

@@ -1,11 +1,15 @@
 :root {
-  --measure-readable-line-length: 42ch;
-  --measure-full-width: 100vw;
+  --measure-line-length: 42ch;
+  --measure-width-full: 100vw;
 
-  --measure-reading-width: min(
-    var(--measure-readable-line-length),
-    var(--measure-full-width)
+  --measure-width-content: min(
+    var(--measure-line-length),
+    var(--measure-width-full)
   );
 
-  --measure-gutter: var(--space-xs);
+  --measure-gap-viewport: var(--space-xs);
+  --measure-gap-header: var(--space-l);
+  --measure-gap-posts: var(--space-l);
+  --measure-gap-footer: var(--space-xl);
+  --measure-gap-content: var(--space-xs);
 }

@@ -1,6 +1,6 @@
 :host {
-  width: var(--measure-reading-width);
-  padding-inline: var(--space-xs);
+  width: var(--measure-width-content);
+  padding-inline: var(--measure-gap-viewport);
   margin-inline: auto;
 
   display: flex;
@@ -9,12 +9,12 @@
 
   /* background: #eee; */
   > h1 {
-    font-size: var(--step-1);
+    font-size: var(--type-title-size-big);
   }
 
   > datetime {
     display: block;
-    font-size: var(--step--2);
-    color: #999;
+    font-size: var(--type-datetime-size);
+    color: var(--color-datetime);
   }
 }

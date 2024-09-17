@@ -49,19 +49,19 @@
       href="../styles/root/palette.css"
       webc:bucket="root"
     />
-    <!--- --
+    <!---
     process.env.ELEVENTY_RUN_MODE
     is one of build, serve, or watch
---->
-    <!-- if (production) { -->
-    <!-- } else { -->
-    <!-- <script webc:keep>
+    if (production) { 
+     } else { 
+     <script webc:keep>
   // TODO: if serviceWorker in navigator
   navigator.serviceWorker.register("sw.js", {
   scope: "./",
      });
-        </script> -->
+        </script>
+        --->
   </head>
 
-  <body @raw="content" webc:nokeep></body>
+  <body @raw="content"></body>
 </html>
