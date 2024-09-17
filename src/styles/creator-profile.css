@@ -9,6 +9,7 @@
   background: #eee;
 
   display: flex;
+  gap: var(--measure-gap-viewport);
 
   .creator-bio {
     font-size: var(--step--2);

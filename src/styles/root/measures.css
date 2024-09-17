@@ -9,7 +9,7 @@
 
   --measure-gap-viewport: var(--space-xs);
   --measure-gap-header: var(--space-l);
-  --measure-gap-posts: var(--space-l);
+  --measure-gap-posts: var(--space-xl);
   --measure-gap-footer: var(--space-xl);
   --measure-gap-content: var(--space-xs);
 }
