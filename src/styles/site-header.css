@@ -34,7 +34,7 @@
   /* flex: 1 1 auto; */
   /* background: #f99; */
 
-  /* color: var(--color-site-name); */
+  color: var(--color-site-name);
 
   font-family: var(--type-site-name-family);
   font-size: var(--type-site-name-size);
