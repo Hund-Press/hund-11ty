@@ -29,6 +29,10 @@
     color: var(--color-datetime);
     text-decoration-color: var(--color-datetime-decoration);
   }
+  a:hover {
+    color: var(--color-datetime);
+    text-decoration-color: var(--color-link-visited);
+  }
 }
 
 .posts-stack > article > blockquote {

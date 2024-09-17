@@ -1,5 +1,5 @@
 :root {
-  --measure-line-length: 42ch;
+  --measure-line-length: 45ch;
   --measure-width-full: 100vw;
 
   --measure-width-content: min(
@@ -8,8 +8,8 @@
   );
 
   --measure-gap-viewport: var(--space-xs);
-  --measure-gap-header: var(--space-l);
-  --measure-gap-posts: var(--space-xl);
+  --measure-gap-header: var(--space-xl);
+  --measure-gap-posts: var(--space-l);
   --measure-gap-footer: var(--space-xl);
   --measure-gap-content: var(--space-xs);
 }
