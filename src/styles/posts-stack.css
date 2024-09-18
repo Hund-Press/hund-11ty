@@ -17,7 +17,7 @@
   font-size: var(--type-title-size-small);
 }
 
-.posts-stack > article > datetime {
+.posts-stack article datetime {
   display: block;
   font-size: var(--type-datetime-size);
 
