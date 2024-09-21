@@ -22,7 +22,12 @@ body > footer {
   grid-area: footer;
 }
 
-body > header,
+/* body > header, */
+
+body > header {
+  width: 100%;
+}
+
 body > footer {
   width: var(--measure-width-content);
 }
