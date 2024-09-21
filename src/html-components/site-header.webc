@@ -1,15 +1,12 @@
 <link rel="stylesheet" webc:scoped href="../styles/site-header.css" />
 
 <header webc:root="override">
-  <div id="site-name">
+  <div id="site-title">
     <a @raw="site.name" :href="site.url"></a>
   </div>
-  <div id="site-nav"></div>
+  <nav id="site-nav">
+    <span webc:for="nav of site.nav">
+      <a @raw="nav.label" :href="nav.url"></a>
+    </span>
+  </nav>
 </header>
-
-<!--- 
-    <a  href="/"></a>
-    --->
-<!--- 
-    <a @raw="site.nav" href="/"></a>
-    --->

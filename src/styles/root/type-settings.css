@@ -10,11 +10,11 @@
   --type-heading-weight: 700;
   --type-heading-line-height: 1.2;
 
-  --type-site-name-family: rosario;
-  --type-site-name-family: system-ui;
-  --type-site-name-size: var(--step-1);
-  --type-site-name-weight: 500;
-  --type-site-name-line-height: 1.2;
+  --type-site-title-family: rosario;
+  --type-site-title-family: system-ui;
+  --type-site-title-size: var(--step-1);
+  --type-site-title-weight: 500;
+  --type-site-title-line-height: 1.2;
 
   --type-nav-size: var(--step--1);
   --type-title-size-big: var(--step-3);

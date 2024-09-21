@@ -21,8 +21,8 @@
   --color-link-active: gold;
   --color-link-hover: gold;
 
-  --color-site-name: var(--color-text);
-  --color-site-name-hover: var(--color-link-hover);
+  --color-site-title: var(--color-text);
+  --color-site-title-hover: var(--color-link-hover);
 
   --color-datetime: #666;
   --color-datetime-decoration: transparent;
