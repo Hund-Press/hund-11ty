@@ -2,7 +2,7 @@
 
 <header webc:root="override">
   <div id="site-title">
-    <a @raw="site.name" :href="/"></a>
+    <a @raw="site.name" href="/"></a>
   </div>
   <nav id="site-nav">
     <span webc:for="nav of site.nav">
