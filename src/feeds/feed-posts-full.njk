@@ -1,0 +1,30 @@
+---
+permalink: /feeds/posts.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.language }}">
+  <title>{{ site.name }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ site.url }}/feeds/posts.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <id>{{ site.url }}/</id>
+  {%- set newestDate = collections.posts | getNewestCollectionItemDate %}
+  {%- if newestDate %}
+  <updated>{{ newestDate | dateToRfc3339 }}</updated>
+  {%- endif %}
+  <generator uri="https://www.11ty.dev/" version="{{ eleventy.version }}">Eleventy</generator>
+
+  {%- for post in collections.posts | reverse %}
+  {%- if loop.index <= 10 %}
+  <entry>
+    <title>{{ post.data.title or "Untitled" }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <id>{{ site.url }}{{ post.url }}</id>
+    <updated>{{ post.data.date | dateToRfc3339 }}</updated>
+    <published>{{ post.data.date | dateToRfc3339 }}</published>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(site.url) }}</content>
+  </entry>
+  {%- endif %}
+  {%- endfor %}
+</feed>

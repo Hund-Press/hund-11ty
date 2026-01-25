@@ -1,0 +1,7 @@
+/* Main content area */
+
+main {
+  max-width: 65ch;
+  margin-inline: auto;
+  padding: 1rem;
+}

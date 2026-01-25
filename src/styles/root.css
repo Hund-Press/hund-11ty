@@ -1,0 +1,8 @@
+/* Design tokens - colors, fonts, spacing */
+/* Projection adds values here; edit freely */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

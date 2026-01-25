@@ -1,0 +1,15 @@
+<header>
+  <a href="/">My Site</a>
+</header>
+
+<style webc:scoped>
+  :host {
+    display: block;
+    padding: 1rem;
+  }
+
+  :host a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+</style>

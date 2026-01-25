@@ -1,0 +1,10 @@
+<footer>
+  <small>&copy; <span @text="new Date().getFullYear()"></span></small>
+</footer>
+
+<style webc:scoped>
+  :host {
+    padding: 1rem;
+    font-size: 0.875rem;
+  }
+</style>

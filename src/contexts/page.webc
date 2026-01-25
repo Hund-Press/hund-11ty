@@ -1,0 +1,9 @@
+---
+layout: root
+---
+
+<body>
+  <site-header></site-header>
+  <main @raw="content"></main>
+  <site-footer></site-footer>
+</body>
